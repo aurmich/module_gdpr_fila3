@@ -37,18 +37,6 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
- * @method static Builder|Event                                 newModelQuery()
- * @method static Builder|Event                                 newQuery()
- * @method static Builder|Event                                 query()
- * @method static Builder|Event                                 whereAction($value)
- * @method static Builder|Event                                 whereConsentId($value)
- * @method static Builder|Event                                 whereCreatedAt($value)
- * @method static Builder|Event                                 whereId($value)
- * @method static Builder|Event                                 whereIp($value)
- * @method static Builder|Event                                 wherePayload($value)
- * @method static Builder|Event                                 whereSubjectId($value)
- * @method static Builder|Event                                 whereTreatmentId($value)
- * @method static Builder|Event                                 whereUpdatedAt($value)
  *
  * @mixin \Eloquent
  */
