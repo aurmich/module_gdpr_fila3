@@ -51,7 +51,11 @@ use Illuminate\Support\Carbon;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereRequired($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereUpdatedAt($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
+<<<<<<< HEAD
 >>>>>>> d30cea3b2a52d203c5eee30e0726ce13b536d139
+=======
+>>>>>>> 09f8fcc47ce6b92069f6e3a8b01a5b74075717a6
+>>>>>>> 0381cd5c6787ee19dc46850e3c714178695b7913
  *
  * @mixin \Eloquent
  */
