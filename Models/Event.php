@@ -4,10 +4,8 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Models;
 
-use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
-use Illuminate\Support\Carbon;
 use Illuminate\Support\Facades\Crypt;
 
 use function Safe\json_encode;
@@ -15,18 +13,19 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
- * @property string                            $id
- * @property string|null                       $treatment_id
- * @property string|null                       $consent_id
- * @property string                            $subject_id
- * @property string                            $ip
- * @property string                            $action
- * @property string                            $payload
- * @property Carbon|null                       $created_at
- * @property Carbon|null                       $updated_at
- * @property \Modules\Gdpr\Models\Consent|null $consent
+ * @property string                          $id
+ * @property string|null                     $treatment_id
+ * @property string|null                     $consent_id
+ * @property string                          $subject_id
+ * @property string                          $ip
+ * @property string                          $action
+ * @property string                          $payload
+ * @property \Illuminate\Support\Carbon|null $created_at
+ * @property \Illuminate\Support\Carbon|null $updated_at
+ * @property Consent|null                    $consent
  *
  * @method static \Modules\Gdpr\Database\Factories\EventFactory factory($count = null, $state = [])
+<<<<<<< HEAD
 <<<<<<< HEAD
  * @method static Builder|Event                                 newModelQuery()
  * @method static Builder|Event                                 newQuery()
@@ -41,6 +40,8 @@ use function Safe\json_encode;
  * @method static Builder|Event                                 whereTreatmentId($value)
  * @method static Builder|Event                                 whereUpdatedAt($value)
 =======
+=======
+>>>>>>> origin/dev
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newModelQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   newQuery()
  * @method static \Illuminate\Database\Eloquent\Builder|Event   query()
@@ -53,7 +54,10 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereSubjectId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereTreatmentId($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedAt($value)
+<<<<<<< HEAD
 >>>>>>> d30cea3b2a52d203c5eee30e0726ce13b536d139
+=======
+>>>>>>> origin/dev
  *
  * @mixin \Eloquent
  */
