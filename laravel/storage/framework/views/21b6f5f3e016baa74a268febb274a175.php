@@ -1,1 +1,0 @@
-<?php /**PATH /var/www/html/_bases/base_fixcity_fila3/laravel/Modules/UI/resources/views/components/svg/v1.blade.php ENDPATH**/ ?>

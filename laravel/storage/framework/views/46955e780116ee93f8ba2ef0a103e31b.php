@@ -1,1 +1,0 @@
-<?php echo e($email_data->body); ?><?php /**PATH /var/www/html/_bases/base_fixcity_fila3/laravel/Modules/Notify/resources/views/emails/text.blade.php ENDPATH**/ ?>
