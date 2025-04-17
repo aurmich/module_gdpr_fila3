@@ -1,50 +1,91 @@
-# Documentation Guidelines
+# Modulo GDPR
 
-This directory (`docs`) serves as the primary documentation repository for the project. All team members should follow these guidelines:
+## Panoramica
+Il modulo GDPR gestisce la conformità al Regolamento Generale sulla Protezione dei Dati, implementando:
+- Gestione consensi
+- Log attività
+- Backup dati
+- Gestione permessi
+- Analisi privacy
+- Report GDPR
+- Export dati
 
-## Core Principles
+## Struttura
+```
+Gdpr/
+├── Console/          # Comandi Artisan
+├── Database/         # Migrazioni e seeders
+├── Http/            # Controller e middleware
+├── Models/          # Modelli Eloquent
+├── Services/        # Servizi di business
+├── Tests/           # Test unitari e di integrazione
+└── docs/            # Documentazione
+    ├── README.md    # Questo file
+    ├── architecture.md
+    ├── development.md
+    ├── packages.md
+    └── roadmap/
+        ├── cookie-consent.md
+        ├── log-attivita.md
+        ├── backup-dati.md
+        └── ...
+```
 
-1. **Single Source of Truth**: This `docs` directory is the main repository for all project documentation.
-2. **Continuous Updates**: Documentation must be updated whenever:
-   - Code changes are made
-   - Issues are resolved
-   - New features are implemented
-   - Bug fixes are applied
+## Standard di Codice
+- PSR-12 per lo stile del codice
+- Type hints obbligatori
+- Return types obbligatori
+- Docblocks per tutti i metodi pubblici
+- Test coverage minimo 80%
 
-## Best Practices
+## Conformità GDPR
+### Principi Fondamentali
+1. **Liceità, correttezza e trasparenza**
+   - Tutti i trattamenti basati su basi giuridiche valide
+   - Informazioni chiare e comprensibili
+   - Processi documentati e tracciabili
 
-1. **Pre-Change Check**: Before making any changes to the codebase:
-   - Review relevant documentation in this directory
-   - Avoid duplicating existing information
-   - Identify potential impacts on existing documentation
+2. **Limitazione delle finalità**
+   - Raccolta dati solo per scopi specifici
+   - Base giuridica chiara per ogni trattamento
+   - Finalità documentate e comunicate
 
-2. **Regular Review**:
-   - Periodically review documentation for accuracy
-   - Update outdated information
-   - Identify areas needing more detailed documentation
+3. **Minimizzazione dei dati**
+   - Raccolta solo dei dati necessari
+   - Revisione periodica dei dati
+   - Eliminazione dati non necessari
 
-3. **Documentation Structure**:
-   - Keep documentation organized and easy to navigate
-   - Use clear, consistent formatting
-   - Include examples where appropriate
-   - Link related documents together
+### Misure Tecniche
+- Crittografia end-to-end
+- Backup cifrati
+- Controlli di accesso granulari
+- Log attività completo
+- Anonimizzazione e pseudonimizzazione
 
-## Current Documentation
+## Performance
+- Ottimizzazione query database
+- Caching strategico
+- Queue per operazioni pesanti
+- Monitoraggio continuo
 
-The following documentation is currently available:
-- `documentation_script_readme.md`: Script documentation
-- `documentation_strategy.md`: Documentation strategy
-- `form_schema_audit.md`: Form schema auditing
-- `laraxot.md`: Laraxot framework documentation
-- `module_geo.md`: Geographic module documentation
-- `project.md`: Project overview
-- `widget.md`: Widget documentation
+## Sicurezza
+- Validazione input
+- Sanitizzazione output
+- Prepared statements
+- Rate limiting
+- CSRF protection
+- Validazione permessi
 
-## Contributing
+## Deployment
+- CI/CD integrato
+- Test automatici
+- Verifica dipendenze
+- Migrazioni automatiche
+- Invalidation cache
+- Verifica permessi
 
-When contributing to documentation:
-1. Use clear and concise language
-2. Include relevant code examples
-3. Update the table of contents if necessary
-4. Cross-reference related documentation
-5. Commit documentation changes along with code changes
+## Collegamenti
+- [Architettura](architecture.md)
+- [Sviluppo](development.md)
+- [Pacchetti](packages.md)
+- [Roadmap](roadmap.md) 
