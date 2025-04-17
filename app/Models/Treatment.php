@@ -18,15 +18,6 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
- *                                                            =======
- * @property string $id
- * @property int                             $active
- * @property int                             $required
- * @property string $name
- * @property string $description
- * @property string|null                     $documentVersion
- * @property string|null                     $documentUrl
- * @property int                             $weight
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by
