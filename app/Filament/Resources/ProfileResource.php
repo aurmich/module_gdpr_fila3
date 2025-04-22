@@ -18,7 +18,6 @@ class ProfileResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
             'type' => Forms\Components\TextInput::make('type')
                 ->maxLength(255)
                 ->default(null),
@@ -48,37 +47,6 @@ class ProfileResource extends XotBaseResource
                 ->maxLength(36)
                 ->default(null),
             'is_active' => Forms\Components\Toggle::make('is_active')
-=======
-            Forms\Components\TextInput::make('type')
-                ->maxLength(255)
-                ->default(null),
-            Forms\Components\TextInput::make('first_name')
-                ->maxLength(191)
-                ->default(null),
-            Forms\Components\TextInput::make('last_name')
-                ->maxLength(191)
-                ->default(null),
-            Forms\Components\TextInput::make('full_name')
-                ->maxLength(191)
-                ->default(null),
-            Forms\Components\TextInput::make('email')
-                ->email()
-                ->maxLength(191)
-                ->default(null),
-            Forms\Components\TextInput::make('user_id')
-                ->maxLength(36)
-                ->default(null),
-            Forms\Components\TextInput::make('updated_by')
-                ->maxLength(36)
-                ->default(null),
-            Forms\Components\TextInput::make('created_by')
-                ->maxLength(36)
-                ->default(null),
-            Forms\Components\TextInput::make('deleted_by')
-                ->maxLength(36)
-                ->default(null),
-            Forms\Components\Toggle::make('is_active')
->>>>>>> 3d68afd (.)
                 ->required(),
         ];
     }

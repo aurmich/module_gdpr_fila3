@@ -18,7 +18,6 @@ class EventResource extends XotBaseResource
     public static function getFormSchema(): array
     {
         return [
-<<<<<<< HEAD
             'treatment_id' => Forms\Components\TextInput::make('treatment_id')
                 ->maxLength(36)
                 ->default(null),
@@ -34,23 +33,6 @@ class EventResource extends XotBaseResource
                 ->required()
                 ->maxLength(191),
             'payload' => Forms\Components\Textarea::make('payload')
-=======
-            Forms\Components\TextInput::make('treatment_id')
-                ->maxLength(36)
-                ->default(null),
-            Forms\Components\Select::make('consent_id')
-                ->relationship('consent', 'id'),
-            Forms\Components\TextInput::make('subject_id')
-                ->required()
-                ->maxLength(191),
-            Forms\Components\TextInput::make('ip')
-                ->required()
-                ->maxLength(191),
-            Forms\Components\TextInput::make('action')
-                ->required()
-                ->maxLength(191),
-            Forms\Components\Textarea::make('payload')
->>>>>>> 3d68afd (.)
                 ->required()
                 ->columnSpanFull(),
         ];

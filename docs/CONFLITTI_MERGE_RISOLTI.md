@@ -2,7 +2,7 @@
 
 ## Problema
 
-Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come `<<<<<<< HEAD`, `=======` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e ` origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -31,7 +31,7 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
- *                                                            =======
+ *                                                            
  * @property string $id
  * @property int                             $active
  * @property int                             $required
@@ -59,7 +59,7 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
- *                                                                                                                                                    =======
+ *                                                                                                                                                    
 ```
 
 ## Soluzione Implementata
@@ -125,9 +125,9 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
 
     foreach ($files as $file) {
         $content = file_get_contents($file);
-        expect($content)->not->toContain('<<<<<<< HEAD')
-            ->and($content)->not->toContain('=======')
-            ->and($content)->not->toContain('>>>>>>> origin');
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('')
+            ->and($content)->not->toContain(' origin');
     }
 });
 
