@@ -18,6 +18,7 @@ use function Safe\json_encode;
 /**
  * Modules\Gdpr\Models\Event.
  *
+<<<<<<< HEAD
  * @property string $id
  * @property string|null                     $treatment_id
  * @property string|null                     $consent_id
@@ -25,6 +26,15 @@ use function Safe\json_encode;
  * @property string $ip
  * @property string $action
  * @property string $payload
+=======
+ * @property string                          $id
+ * @property string|null                     $treatment_id
+ * @property string|null                     $consent_id
+ * @property string                          $subject_id
+ * @property string                          $ip
+ * @property string                          $action
+ * @property string                          $payload
+>>>>>>> 3d68afd (.)
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property Consent|null                    $consent
@@ -53,6 +63,7 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereDeletedBy($value)
  * @method static \Illuminate\Database\Eloquent\Builder|Event whereUpdatedBy($value)
  *
+<<<<<<< HEAD
  * @property string $id
  * @property string|null                     $treatment_id
  * @property string|null                     $consent_id
@@ -60,6 +71,15 @@ use function Safe\json_encode;
  * @property string $ip
  * @property string $action
  * @property string $payload
+=======
+ * @property string                          $id
+ * @property string|null                     $treatment_id
+ * @property string|null                     $consent_id
+ * @property string                          $subject_id
+ * @property string                          $ip
+ * @property string                          $action
+ * @property string                          $payload
+>>>>>>> 3d68afd (.)
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by

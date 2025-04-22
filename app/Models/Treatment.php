@@ -10,11 +10,28 @@ use Modules\Xot\Contracts\ProfileContract;
 /**
  * Modules\Gdpr\Models\Treatment.
  *
+<<<<<<< HEAD
  * @property string $id
  * @property int                             $active
  * @property int                             $required
  * @property string $name
  * @property string $description
+=======
+ * @property string                          $id
+ * @property int                             $active
+ * @property int                             $required
+ * @property string                          $name
+ * @property string                          $description
+ * @property string|null                     $documentVersion
+ * @property string|null                     $documentUrl
+ * @property int                             $weight
+ *                                                            =======
+ * @property string                          $id
+ * @property int                             $active
+ * @property int                             $required
+ * @property string                          $name
+ * @property string                          $description
+>>>>>>> 3d68afd (.)
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight

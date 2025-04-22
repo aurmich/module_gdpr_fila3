@@ -15,6 +15,32 @@ use Modules\User\Models\BaseProfile;
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
+<<<<<<< HEAD
+=======
+ * @property int                                                                                                           $id
+ * @property string|null                                                                                                   $type
+ * @property string|null                                                                                                   $first_name
+ * @property string|null                                                                                                   $last_name
+ * @property string|null                                                                                                   $full_name
+ * @property string|null                                                                                                   $email
+ *                                                                                                                                                    =======
+ *                                                                                                                                                    >>>>>>> 76348cc6b642ef946f57e308db4e1c6210448bea
+ * @property \Illuminate\Support\Carbon|null                                                                               $created_at
+ * @property \Illuminate\Support\Carbon|null                                                                               $updated_at
+ * @property string|null                                                                                                   $user_id
+ * @property string|null                                                                                                   $updated_by
+ * @property string|null                                                                                                   $created_by
+ * @property \Illuminate\Support\Carbon|null                                                                               $deleted_at
+ * @property string|null                                                                                                   $deleted_by
+ * @property int                                                                                                           $is_active
+ *                                                                                                                                                    =======
+ * @property int                                                                                                           $id
+ * @property string|null                                                                                                   $type
+ * @property string|null                                                                                                   $first_name
+ * @property string|null                                                                                                   $last_name
+ * @property string|null                                                                                                   $full_name
+ * @property string|null                                                                                                   $email
+>>>>>>> 3d68afd (.)
  * @property \Illuminate\Support\Carbon|null                                                                               $created_at
  * @property \Illuminate\Support\Carbon|null                                                                               $updated_at
  * @property string|null                                                                                                   $user_id
@@ -24,7 +50,11 @@ use Modules\User\Models\BaseProfile;
  * @property string|null                                                                                                   $deleted_by
  * @property bool                                                                                                          $is_active
  * @property \Spatie\SchemalessAttributes\SchemalessAttributes                                                             $extra
+<<<<<<< HEAD
  * @property string $avatar
+=======
+ * @property string                                                                                                        $avatar
+>>>>>>> 3d68afd (.)
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\DeviceUser>                                $deviceUsers
  * @property int|null                                                                                                      $device_users_count
  * @property \Illuminate\Database\Eloquent\Collection<int, \Modules\User\Models\Device>                                    $devices
@@ -121,7 +151,11 @@ use Modules\User\Models\BaseProfile;
  *
  * @property \Modules\User\Models\DeviceUser             $pivot
  * @property \Modules\User\Models\Membership             $membership
+<<<<<<< HEAD
  * @property string $credits
+=======
+ * @property string                                      $credits
+>>>>>>> 3d68afd (.)
  * @property string|null                                 $slug
  * @property \Modules\Xot\Contracts\ProfileContract|null $creator
  * @property \Modules\Xot\Contracts\ProfileContract|null $updater
