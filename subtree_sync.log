@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+📆 2025-04-23 16:54:25 - 🔧 Configurazione git di base...
+📆 2025-04-23 16:54:25 - ✅ Configurazione git completata
+=======
+>>>>>>> aurmich/dev
 
 [0;34mℹ️ [2025-04-23 14:58:14] Configurazione avanzata git...[0m
 [0;31m❌ [2025-04-23 14:58:14] Errore durante configurazione: Errore impostazione ignorecase[0m
@@ -42,5 +49,11 @@
 aurmich/dev
 📆 2025-04-23 15:42:22 - 🔧 Configurazione git di base...
 📆 2025-04-23 15:42:22 - ✅ Configurazione git completata
+<<<<<<< HEAD
 📆 2025-04-23 17:04:44 - 🔧 Configurazione git di base...
 📆 2025-04-23 17:04:44 - ✅ Configurazione git completata
+=======
+>>>>>>> aurmich/dev
+📆 2025-04-23 17:02:19 - 🔧 Configurazione git di base...
+📆 2025-04-23 17:02:19 - ✅ Configurazione git completata
+>>>>>>> aurmich/dev
