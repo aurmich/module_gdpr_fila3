@@ -5,6 +5,7 @@
 .git-rewrite
 .php-cs-fixer.cache
 *.phar
+*.log
 .php-cs-fixer.cache
 *.lock
 .git-blame-ignore-revs
