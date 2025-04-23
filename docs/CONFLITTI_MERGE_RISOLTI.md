@@ -2,7 +2,13 @@
 
 ## Problema
 
+<<<<<<< HEAD
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come `<<<<<<< HEAD`, `=======` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+=======
+
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+aurmich/dev
+>>>>>>> aurmich/dev
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -116,6 +122,10 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 2. L'istanziazione corretta delle classi
 3. L'accesso alle proprietà delle classi
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> aurmich/dev
 ```php
 it('verifica che i file corretti non contengano marcatori di conflitto', function () {
     $files = [
@@ -125,9 +135,14 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
 
     foreach ($files as $file) {
         $content = file_get_contents($file);
+<<<<<<< HEAD
         expect($content)->not->toContain('<<<<<<< HEAD')
             ->and($content)->not->toContain('=======')
             ->and($content)->not->toContain('>>>>>>> origin');
+=======
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('origin');
+>>>>>>> aurmich/dev
     }
 });
 
@@ -136,6 +151,10 @@ it('verifica che le classi corrette siano istanziabili', function () {
     expect(new Profile())->toBeInstanceOf(Profile::class);
 });
 ```
+<<<<<<< HEAD
+=======
+aurmich/dev
+>>>>>>> aurmich/dev
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
 
