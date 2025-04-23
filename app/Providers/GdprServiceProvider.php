@@ -22,7 +22,7 @@ class GdprServiceProvider extends XotBaseServiceProvider
 
         $lang_path = app(GetModulePathByGeneratorAction::class)->execute($this->name, 'lang');
         $this->loadTranslationsFrom($lang_path, 'cookie-consent');
-
+        
         $router = app('router');
         $this->registerMyMiddleware($router);
     }
