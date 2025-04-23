@@ -2,7 +2,7 @@
 
 ## Problema
 
-Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come `<<<<<<< HEAD`, `=======` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -116,26 +116,7 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 2. L'istanziazione corretta delle classi
 3. L'accesso alle proprietà delle classi
 
-```php
-it('verifica che i file corretti non contengano marcatori di conflitto', function () {
-    $files = [
-        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Treatment.php',
-        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Profile.php',
-    ];
 
-    foreach ($files as $file) {
-        $content = file_get_contents($file);
-        expect($content)->not->toContain('<<<<<<< HEAD')
-            ->and($content)->not->toContain('=======')
-            ->and($content)->not->toContain('>>>>>>> origin');
-    }
-});
-
-it('verifica che le classi corrette siano istanziabili', function () {
-    expect(new Treatment())->toBeInstanceOf(Treatment::class);
-    expect(new Profile())->toBeInstanceOf(Profile::class);
-});
-```
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
 
