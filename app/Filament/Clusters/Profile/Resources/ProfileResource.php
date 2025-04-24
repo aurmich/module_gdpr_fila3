@@ -9,7 +9,11 @@ use Modules\Gdpr\Filament\Clusters\Profile\Resources\ProfileResource\Pages;
 use Modules\Gdpr\Models\Profile;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
+<<<<<<< HEAD
 class ProfileResource extends XotBaseResource
+=======
+abstract class ProfileResource extends XotBaseResource
+>>>>>>> ed96140 (.)
 {
     protected static ?string $model = Profile::class;
 

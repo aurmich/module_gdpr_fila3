@@ -10,7 +10,11 @@ use Modules\Gdpr\Filament\Resources\TreatmentResource\Pages;
 use Modules\Gdpr\Models\Treatment;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
+<<<<<<< HEAD
 class TreatmentResource extends XotBaseResource
+=======
+abstract class TreatmentResource extends XotBaseResource
+>>>>>>> ed96140 (.)
 {
     protected static ?string $model = Treatment::class;
 

@@ -4,6 +4,7 @@
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
@@ -27,6 +28,9 @@ aurmich/dev
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e `` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+>>>>>>> ed96140 (.)
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -57,6 +61,7 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property int                             $weight
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *                                                             * @property string $id
 =======
@@ -71,6 +76,10 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+ *                                                            
+ * @property string $id
+>>>>>>> ed96140 (.)
  * @property int                             $active
  * @property int                             $required
  * @property string $name
@@ -99,6 +108,7 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $email
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
  *                                                                                                                                                    ```
 =======
@@ -113,6 +123,10 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+ *                                                                                                                                                    
+```
+>>>>>>> ed96140 (.)
 
 ## Soluzione Implementata
 
@@ -170,6 +184,7 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 =======
@@ -186,6 +201,8 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> ed96140 (.)
 ```php
 it('verifica che i file corretti non contengano marcatori di conflitto', function () {
     $files = [
@@ -195,6 +212,7 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
 
     foreach ($files as $file) {
         $content = file_get_contents($file);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -219,6 +237,11 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('')
+            ->and($content)->not->toContain('>>>>>>> origin');
+>>>>>>> ed96140 (.)
     }
 });
 
@@ -229,6 +252,7 @@ it('verifica che le classi corrette siano istanziabili', function () {
 ```
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 aurmich/dev
 =======
@@ -245,6 +269,8 @@ aurmich/dev
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+>>>>>>> ed96140 (.)
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
 
@@ -274,3 +300,12 @@ La risoluzione dei conflitti di merge nei file del modulo GDPR ha permesso di:
 4. Creare test automatizzati per verificare l'assenza di conflitti
 
 Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto SaluteOra.
+<<<<<<< HEAD
+=======
+
+# Conflitti Merge Risolti
+
+## Collegamenti Principali
+- [Documentazione Git Subtree](../../../../docs/bashscripts/GIT_SUBTREE.md)
+- [Risoluzione Conflitti](../../Xot/docs/RISOLUZIONE_CONFLITTI_MERGE.md)
+>>>>>>> ed96140 (.)

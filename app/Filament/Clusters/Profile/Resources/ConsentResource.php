@@ -9,7 +9,11 @@ use Modules\Gdpr\Filament\Clusters\Profile\Resources\ConsentResource\Pages;
 use Modules\Gdpr\Models\Consent;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
+<<<<<<< HEAD
 class ConsentResource extends XotBaseResource
+=======
+abstract class ConsentResource extends XotBaseResource
+>>>>>>> ed96140 (.)
 {
     protected static ?string $model = Consent::class;
 
