@@ -5,10 +5,7 @@
 .git-rewrite
 .php-cs-fixer.cache
 *.phar
-<<<<<<< HEAD
-=======
 *.log
->>>>>>> aurmich/dev
 .php-cs-fixer.cache
 *.lock
 .git-blame-ignore-revs
