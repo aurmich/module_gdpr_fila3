@@ -2,7 +2,12 @@
 
 ## Problema
 
-Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+
+## Collegamenti Bidirezionali
+
+- [Linee Guida Generali per la Risoluzione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md)
+- [Documentazione Conflitti Git nei Moduli](../../../../docs/conflitti_git_moduli.md)
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
