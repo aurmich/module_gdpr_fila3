@@ -5,7 +5,14 @@
 .git-rewrite
 .php-cs-fixer.cache
 *.phar
+<<<<<<< HEAD
 *.log
+=======
+<<<<<<< HEAD
+*.log
+=======
+>>>>>>> ed96140 (.)
+>>>>>>> aurmich/dev
 .php-cs-fixer.cache
 *.lock
 .git-blame-ignore-revs

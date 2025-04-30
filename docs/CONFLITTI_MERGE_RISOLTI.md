@@ -3,11 +3,21 @@
 ## Problema
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
 
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 aurmich/dev
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
 <<<<<<< HEAD
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come `<<<<<<< HEAD`, `=======` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 =======
@@ -20,6 +30,16 @@ aurmich/dev
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 aurmich/dev
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e `` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
 
 I file principali con conflitti erano:
@@ -50,14 +70,35 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentUrl
  * @property int                             $weight
 <<<<<<< HEAD
+<<<<<<< HEAD
  *                                                             * @property string $id
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *                                                             * @property string $id
+=======
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
  *                                                            =======
  * @property string $id
 =======
  *                                                             * @property string $id
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+ *                                                            
+ * @property string $id
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
  * @property int                             $active
  * @property int                             $required
@@ -86,14 +127,35 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
 <<<<<<< HEAD
+<<<<<<< HEAD
  *                                                                                                                                                    ```
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+ *                                                                                                                                                    ```
+=======
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
  *                                                                                                                                                    =======
 ```
 =======
  *                                                                                                                                                    ```
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+ *                                                                                                                                                    
+```
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
 
 ## Soluzione Implementata
@@ -151,9 +213,19 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 3. L'accesso alle proprietà delle classi
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+=======
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
 <<<<<<< HEAD
 =======
 
@@ -161,6 +233,15 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 =======
 
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
 ```php
 it('verifica che i file corretti non contengano marcatori di conflitto', function () {
@@ -172,10 +253,20 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
     foreach ($files as $file) {
         $content = file_get_contents($file);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
         expect($content)->not->toContain('')
             ->and($content)->not->toContain('origin');
 =======
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
 <<<<<<< HEAD
         expect($content)->not->toContain('<<<<<<< HEAD')
             ->and($content)->not->toContain('=======')
@@ -188,6 +279,18 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
         expect($content)->not->toContain('')
             ->and($content)->not->toContain('origin');
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('')
+            ->and($content)->not->toContain('>>>>>>> origin');
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
     }
 });
@@ -198,9 +301,19 @@ it('verifica che le classi corrette siano istanziabili', function () {
 });
 ```
 <<<<<<< HEAD
+<<<<<<< HEAD
 aurmich/dev
 =======
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+aurmich/dev
+=======
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
 <<<<<<< HEAD
 =======
 aurmich/dev
@@ -208,6 +321,15 @@ aurmich/dev
 =======
 aurmich/dev
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
+>>>>>>> aurmich/dev
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+=======
+>>>>>>> ed96140 (.)
 >>>>>>> aurmich/dev
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
@@ -238,3 +360,15 @@ La risoluzione dei conflitti di merge nei file del modulo GDPR ha permesso di:
 4. Creare test automatizzati per verificare l'assenza di conflitti
 
 Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto SaluteOra.
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+# Conflitti Merge Risolti
+
+## Collegamenti Principali
+- [Documentazione Git Subtree](../../../../docs/bashscripts/GIT_SUBTREE.md)
+- [Risoluzione Conflitti](../../Xot/docs/RISOLUZIONE_CONFLITTI_MERGE.md)
+>>>>>>> ed96140 (.)
+>>>>>>> aurmich/dev

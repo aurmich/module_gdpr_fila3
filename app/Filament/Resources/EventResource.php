@@ -9,7 +9,15 @@ use Modules\Gdpr\Filament\Resources\EventResource\Pages;
 use Modules\Gdpr\Models\Event;
 use Modules\Xot\Filament\Resources\XotBaseResource;
 
+<<<<<<< HEAD
 class EventResource extends XotBaseResource
+=======
+<<<<<<< HEAD
+class EventResource extends XotBaseResource
+=======
+abstract class EventResource extends XotBaseResource
+>>>>>>> ed96140 (.)
+>>>>>>> aurmich/dev
 {
     protected static ?string $model = Event::class;
 
