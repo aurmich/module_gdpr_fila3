@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> aurmich/dev
 # Jigsaw Docs Starter Template
 
 This is a starter template for creating a beautiful, customizable documentation site for your project with minimal effort. You’ll only have to change a few settings and you’re ready to go.
@@ -97,8 +93,6 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
-<<<<<<< HEAD
-=======
 =======
 # Modulo GDPR
 
@@ -191,5 +185,3 @@ Gdpr/
 - [Sviluppo](development.md)
 - [Pacchetti](packages.md)
 - [Roadmap](roadmap.md) 
->>>>>>> ed96140 (.)
->>>>>>> aurmich/dev

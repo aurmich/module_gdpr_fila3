@@ -4,16 +4,10 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Providers;
 
-<<<<<<< HEAD
 use Modules\Xot\Providers\XotBaseEventServiceProvider;
 use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseEventServiceProvider;
 
 class EventServiceProvider extends XotBaseEventServiceProvider
-=======
-use Illuminate\Foundation\Support\Providers\EventServiceProvider as BaseEventServiceProvider;
-
-class EventServiceProvider extends BaseEventServiceProvider
->>>>>>> aurmich/dev
 {
     /**
      * The event handler mappings for the application.
