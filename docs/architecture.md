@@ -1,237 +1,297 @@
-# Architettura del Modulo GDPR
+# Architettura Modulo GDPR
 
-## Panoramica
-L'architettura del modulo GDPR è progettata per garantire la massima conformità al GDPR, sicurezza e scalabilità. Il modulo segue i principi di:
-- Privacy by Design
-- Security by Default
-- Scalabilità orizzontale
-- Manutenibilità
+## Struttura del Modulo
 
-## Componenti Principali
+```
+Modules/Gdpr/
+├── Config/
+│   └── config.php
+├── Console/
+│   └── Commands/
+├── Database/
+│   ├── Factories/
+│   ├── Migrations/
+│   └── Seeders/
+├── Filament/
+│   ├── Resources/
+│   ├── Pages/
+│   └── Widgets/
+├── Http/
+│   ├── Controllers/
+│   ├── Middleware/
+│   └── Requests/
+├── Models/
+├── Policies/
+├── Providers/
+├── Resources/
+│   ├── lang/
+│   └── views/
+├── Services/
+├── Tests/
+└── docs/
+```
 
-### 1. Core
+## Layer Architetturali
+
+### 1. Presentation Layer
+
+#### Filament Resources
+```php
+namespace Modules\Gdpr\Filament\Resources;
+
+use Modules\Xot\Filament\Resources\XotBaseResource;
+
+class ConsentResource extends XotBaseResource
+{
+    protected static string $model = Consent::class;
+    
+    public static function getNavigationGroup(): ?string
+    {
+        return __('gdpr::navigation.privacy');
+    }
+}
+```
+
+#### Controllers
+```php
+namespace Modules\Gdpr\Http\Controllers;
+
+use Modules\Xot\Http\Controllers\XotBaseController;
+
+class ConsentController extends XotBaseController
+{
+    public function __construct(
+        private readonly ConsentService $service
+    ) {}
+
+    public function store(ConsentRequest $request): JsonResponse
+    {
+        $consent = $this->service->createConsent($request->validated());
+        return response()->json($consent, 201);
+    }
+}
+```
+
+### 2. Domain Layer
+
 #### Models
 ```php
-class Consent extends Model
+namespace Modules\Gdpr\Models;
+
+use Modules\Xot\Models\XotBaseModel;
+
+class Consent extends XotBaseModel
 {
     protected $fillable = [
         'user_id',
         'type',
-        'status',
-        'version',
-        'ip_address'
+        'value',
+        'expires_at',
     ];
 
     protected $casts = [
-        'status' => 'boolean',
-        'metadata' => 'array'
+        'value' => 'boolean',
+        'expires_at' => 'datetime',
     ];
 }
 ```
 
 #### Services
 ```php
+namespace Modules\Gdpr\Services;
+
 class ConsentService
 {
-    public function storeConsent(User $user, array $data): Consent
+    public function __construct(
+        private readonly ConsentRepository $repository,
+        private readonly ConsentValidator $validator
+    ) {}
+
+    public function createConsent(array $data): Consent
     {
-        return DB::transaction(function () use ($user, $data) {
-            $consent = new Consent([
-                'user_id' => $user->id,
-                'type' => $data['type'],
-                'status' => $data['status'],
-                'version' => $data['version'],
-                'ip_address' => request()->ip()
-            ]);
-
-            $consent->save();
-
-            event(new ConsentStored($consent));
-
-            return $consent;
-        });
+        $this->validator->validate($data);
+        return $this->repository->create($data);
     }
 }
 ```
 
-### 2. Database
-#### Migrazioni
+### 3. Data Layer
+
+#### Repositories
 ```php
-Schema::create('consents', function (Blueprint $table) {
-    $table->id();
-    $table->foreignId('user_id')->constrained()->cascadeOnDelete();
-    $table->string('type');
-    $table->boolean('status');
-    $table->string('version');
-    $table->string('ip_address');
-    $table->json('metadata')->nullable();
-    $table->timestamps();
+namespace Modules\Gdpr\Repositories;
+
+use Modules\Xot\Repositories\XotBaseRepository;
+
+class ConsentRepository extends XotBaseRepository
+{
+    public function getValidConsents(User $user): Collection
+    {
+        return $this->model
+            ->where('user_id', $user->id)
+            ->where('expires_at', '>', now())
+            ->get();
+    }
+}
+```
+
+#### Factories
+```php
+namespace Modules\Gdpr\Database\Factories;
+
+use Illuminate\Database\Eloquent\Factories\Factory;
+
+class ConsentFactory extends Factory
+{
+    protected $model = Consent::class;
+
+    public function definition(): array
+    {
+        return [
+            'type' => $this->faker->randomElement(['marketing', 'analytics']),
+            'value' => $this->faker->boolean,
+            'expires_at' => now()->addDays(30),
+        ];
+    }
+}
+```
+
+## Componenti Principali
+
+### 1. Service Provider
+```php
+namespace Modules\Gdpr\Providers;
+
+use Modules\Xot\Providers\XotBaseServiceProvider;
+
+class GdprServiceProvider extends XotBaseServiceProvider
+{
+    protected string $module_dir = __DIR__;
+    protected string $module_ns = __NAMESPACE__;
     
-    $table->index(['user_id', 'type']);
-});
-```
-
-#### Indici
-- `user_id, type` per query frequenti
-- `created_at` per report e analisi
-- `status` per filtri comuni
-
-### 3. API
-#### Controller
-```php
-class ConsentController extends Controller
-{
-    public function store(StoreConsentRequest $request)
+    public function boot(): void
     {
-        $consent = $this->consentService->storeConsent(
-            $request->user(),
-            $request->validated()
-        );
-
-        return new ConsentResource($consent);
+        $this->registerConfig();
+        $this->registerViews();
+        $this->registerFactories();
+        $this->loadMigrationsFrom($this->module_dir.'/../Database/Migrations');
     }
 }
 ```
 
-#### Middleware
+### 2. Event System
 ```php
-class ValidateConsent
-{
-    public function handle($request, Closure $next)
-    {
-        if (!$request->user()->hasValidConsent()) {
-            return response()->json([
-                'message' => 'Consenso non valido'
-            ], 403);
-        }
+namespace Modules\Gdpr\Events;
 
-        return $next($request);
+class ConsentGranted
+{
+    public function __construct(
+        public readonly Consent $consent,
+        public readonly User $user
+    ) {}
+}
+
+class ConsentListener
+{
+    public function handle(ConsentGranted $event): void
+    {
+        activity()
+            ->performedOn($event->consent)
+            ->causedBy($event->user)
+            ->log('consent_granted');
     }
 }
 ```
 
-### 4. UI
-#### Componenti
+### 3. Job Queue
 ```php
-class ConsentBanner extends Component
+namespace Modules\Gdpr\Jobs;
+
+class ProcessDataExport implements ShouldQueue
 {
-    public function render()
+    public function __construct(
+        private readonly User $user,
+        private readonly string $format
+    ) {}
+
+    public function handle(ExportService $service): void
     {
-        return view('gdpr::components.consent-banner', [
-            'consents' => $this->getRequiredConsents()
-        ]);
+        $service->exportUserData($this->user, $this->format);
     }
 }
 ```
-
-## Flusso dei Dati
-
-### 1. Raccolta Consensi
-1. Utente visita il sito
-2. Banner mostra richiesta consenso
-3. Utente accetta/rifiuta
-4. Sistema registra consenso
-5. Sistema applica preferenze
-
-### 2. Log Attività
-1. Evento utente rilevato
-2. Sistema verifica consenso
-3. Sistema registra attività
-4. Sistema notifica se necessario
-
-### 3. Backup Dati
-1. Sistema pianifica backup
-2. Sistema cifra dati
-3. Sistema trasferisce backup
-4. Sistema verifica integrità
 
 ## Pattern Utilizzati
 
-### 1. Repository
-```php
-class ConsentRepository
-{
-    public function getLatestConsent(User $user, string $type): ?Consent
-    {
-        return Consent::where('user_id', $user->id)
-            ->where('type', $type)
-            ->latest()
-            ->first();
-    }
-}
-```
+### 1. Repository Pattern
+- Separazione della logica di accesso ai dati
+- Interfacce standardizzate per le operazioni CRUD
+- Facilitazione dei test unitari
 
-### 2. Observer
-```php
-class ConsentObserver
-{
-    public function created(Consent $consent)
-    {
-        event(new ConsentCreated($consent));
-    }
-}
-```
+### 2. Service Layer
+- Incapsulamento della logica di business
+- Coordinamento tra repository e altri servizi
+- Gestione delle transazioni
 
-### 3. Factory
-```php
-class ConsentFactory extends Factory
-{
-    public function definition()
-    {
-        return [
-            'type' => $this->faker->randomElement(['cookie', 'privacy', 'marketing']),
-            'status' => $this->faker->boolean,
-            'version' => '1.0.0',
-            'ip_address' => $this->faker->ipv4
-        ];
-    }
-}
-```
+### 3. Factory Pattern
+- Creazione standardizzata di oggetti
+- Supporto per i test
+- Generazione dati di esempio
 
-## Performance
-
-### 1. Caching
-- Cache consensi attivi
-- Cache configurazioni
-- Cache report
-
-### 2. Queue
-- Backup in background
+### 4. Observer Pattern
+- Gestione eventi GDPR
 - Notifiche asincrone
-- Elaborazione batch
+- Audit logging
 
-### 3. Database
-- Indici ottimizzati
-- Query ottimizzate
-- Partizionamento dati
+## Integrazione con Altri Moduli
 
-## Sicurezza
-
-### 1. Validazione
+### 1. User Module
 ```php
-class StoreConsentRequest extends FormRequest
+use Modules\Gdpr\Traits\HasGdprConsent;
+
+class User extends XotBaseUser
 {
-    public function rules()
+    use HasGdprConsent;
+}
+```
+
+### 2. Activity Module
+```php
+use Modules\Gdpr\Traits\LogsGdprActivity;
+
+class GdprActivity extends Activity
+{
+    use LogsGdprActivity;
+}
+```
+
+### 3. Notify Module
+```php
+use Modules\Gdpr\Events\ConsentExpiring;
+
+class ConsentExpirationNotification extends Notification
+{
+    public function toMail($notifiable): MailMessage
     {
-        return [
-            'type' => ['required', 'string', 'in:cookie,privacy,marketing'],
-            'status' => ['required', 'boolean'],
-            'version' => ['required', 'string']
-        ];
+        return (new MailMessage)
+            ->subject('Consenso in scadenza')
+            ->line('Il tuo consenso sta per scadere.');
     }
 }
 ```
 
-### 2. Cifratura
-- Dati sensibili cifrati
-- Backup cifrati
-- Comunicazioni sicure
+## Collegamenti Bidirezionali
 
-### 3. Autorizzazione
-- Ruoli granulari
-- Permessi specifici
-- Audit log
+### Collegamenti ad Altri Moduli
+- [Architettura User](../User/docs/architecture.md)
+- [Architettura Activity](../Activity/docs/architecture.md)
+- [Architettura Xot](../Xot/docs/architecture.md)
 
+### Collegamenti Interni
+- [README Principale](./README.md)
+- [Implementazione](./implementation.md)
+- [Configurazione](./configuration.md)
+- [Security](./security.md) 
 ## Estensibilità
 
 ### 1. Eventi
@@ -261,3 +321,12 @@ class GdprMiddleware
 - [Sviluppo](development.md)
 - [Pacchetti](packages.md)
 - [Roadmap](roadmap.md) 
+
+## Collegamenti tra versioni di architecture.md
+* [architecture.md](docs/tecnico/filament/architecture.md)
+* [architecture.md](docs/rules/architecture.md)
+* [architecture.md](laravel/Modules/Gdpr/docs/architecture.md)
+* [architecture.md](laravel/Modules/Cms/docs/frontoffice/architecture.md)
+* [architecture.md](laravel/Modules/Cms/docs/architecture.md)
+* [architecture.md](laravel/Themes/One/docs/roadmap/inspiration/architecture.md)
+

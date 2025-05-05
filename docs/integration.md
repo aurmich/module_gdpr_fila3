@@ -65,3 +65,8 @@
 - Verificare la compatibilità
 - Testare le modifiche
 - Documentare i cambiamenti 
+## Collegamenti tra versioni di integration.md
+* [integration.md](laravel/Modules/Gdpr/docs/integration.md)
+* [integration.md](laravel/Modules/Xot/docs/integration.md)
+* [integration.md](laravel/Modules/Job/docs/integration.md)
+

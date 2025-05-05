@@ -30,3 +30,16 @@ The PHPDoc for several methods in the Event model references a non-existent Buil
 - Corrects PHPStan type checking errors
 - Improves code documentation accuracy
 - Ensures proper IDE autocompletion support
+
+## Collegamenti tra versioni di CLASS_NOT_FOUND_FIXES.md
+* [CLASS_NOT_FOUND_FIXES.md](laravel/Modules/Gdpr/docs/phpstan/CLASS_NOT_FOUND_FIXES.md)
+* [CLASS_NOT_FOUND_FIXES.md](laravel/Modules/Gdpr/docs/PHPStan/CLASS_NOT_FOUND_FIXES.md)
+
+
+## Collegamenti tra versioni di class_not_found_fixes.md
+<<<<<<< HEAD
+* [class_not_found_fixes.md](../phpstan/class_not_found_fixes.md)
+=======
+* [class_not_found_fixes.md](../PHPStan/class_not_found_fixes.md)
+>>>>>>> 72c9d1e (.)
+

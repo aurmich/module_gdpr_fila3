@@ -155,4 +155,18 @@ La risoluzione dei conflitti di merge nei file del modulo GDPR ha permesso di:
 3. Garantire la compatibilità con l'analisi statica di PHPStan
 4. Creare test automatizzati per verificare l'assenza di conflitti
 
+Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto il progetto.
 Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto SaluteOra.
+
+## Collegamenti tra versioni di CONFLITTI_MERGE_RISOLTI.md
+* [CONFLITTI_MERGE_RISOLTI.md](laravel/Modules/Gdpr/docs/CONFLITTI_MERGE_RISOLTI.md)
+* [CONFLITTI_MERGE_RISOLTI.md](laravel/Modules/Xot/docs/CONFLITTI_MERGE_RISOLTI.md)
+* [CONFLITTI_MERGE_RISOLTI.md](laravel/Modules/UI/docs/CONFLITTI_MERGE_RISOLTI.md)
+* [CONFLITTI_MERGE_RISOLTI.md](laravel/Modules/Media/docs/CONFLITTI_MERGE_RISOLTI.md)
+
+
+## Collegamenti tra versioni di conflitti_merge_risolti.md
+* [conflitti_merge_risolti.md](../../Xot/docs/conflitti_merge_risolti.md)
+* [conflitti_merge_risolti.md](../../UI/docs/conflitti_merge_risolti.md)
+* [conflitti_merge_risolti.md](../../Media/docs/conflitti_merge_risolti.md)
+

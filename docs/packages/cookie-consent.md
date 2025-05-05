@@ -283,3 +283,8 @@ class CookieConsentCleanup
 - [Documentazione ufficiale](https://spatie.be/docs/laravel-cookie-consent)
 - [Architettura](../architecture.md)
 - [Sviluppo](../development.md) 
+
+## Collegamenti tra versioni di cookie-consent.md
+* [cookie-consent.md](laravel/Modules/Gdpr/docs/packages/cookie-consent.md)
+* [cookie-consent.md](laravel/Modules/Gdpr/docs/roadmap/cookie-consent.md)
+

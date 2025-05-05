@@ -41,3 +41,10 @@ class ConsentResource extends XotBaseResource
 - Eseguire PHPStan per verificare la corretta implementazione
 - Assicurarsi che tutti i metodi astratti siano implementati
 - Verificare la tipizzazione dei dati 
+## Collegamenti tra versioni di filament-resources.md
+* [filament-resources.md](docs/tecnico/filament/filament-resources.md)
+* [filament-resources.md](docs/regole/filament-resources.md)
+* [filament-resources.md](laravel/Modules/Gdpr/docs/filament-resources.md)
+* [filament-resources.md](laravel/Modules/Xot/docs/filament-resources.md)
+* [filament-resources.md](laravel/Modules/Cms/docs/filament-resources.md)
+

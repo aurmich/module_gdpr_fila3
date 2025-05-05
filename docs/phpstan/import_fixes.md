@@ -24,3 +24,12 @@ The `Illuminate\Support\Carbon` class is imported twice in the Consent model fil
 - Eliminates PHP syntax errors
 - Improves code quality and maintainability
 - Resolves related PHPStan errors
+
+## Collegamenti tra versioni di IMPORT_FIXES.md
+* [IMPORT_FIXES.md](laravel/Modules/Gdpr/docs/phpstan/IMPORT_FIXES.md)
+* [IMPORT_FIXES.md](laravel/Modules/Gdpr/docs/PHPStan/IMPORT_FIXES.md)
+
+
+## Collegamenti tra versioni di import_fixes.md
+* [import_fixes.md](../PHPStan/import_fixes.md)
+
