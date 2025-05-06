@@ -1,54 +1,51 @@
-# Filament Resources nel Modulo GDPR
+# Filament Resources - Modulo GDPR
 
-## Struttura Base
-- Tutte le Resources devono estendere `XotBaseResource`
-- Implementare il metodo astratto `getFormSchema()`
-- Non definire `$navigationIcon` (gestito da traduzioni)
-- Non definire `table()` (gestito dalla pagina index)
+## Panoramica
 
-## Esempio di Implementazione
-```php
-class ConsentResource extends XotBaseResource
-{
-    protected static ?string $model = Consent::class;
+Questo documento descrive le risorse Filament disponibili nel modulo GDPR e come utilizzarle.
 
-    public static function getFormSchema(): array
-    {
-        return [
-            'fields' => [
-                'title' => [
-                    'label' => 'Titolo',
-                    'tooltip' => 'Inserisci il titolo del consenso'
-                ],
-                'content' => [
-                    'label' => 'Contenuto',
-                    'tooltip' => 'Inserisci il contenuto del consenso'
-                ]
-            ]
-        ];
-    }
-}
-```
+## Risorse Disponibili
 
-## Best Practices
-- Utilizzare array associativi per i campi
-- Includere sempre label e tooltip
-- Seguire le convenzioni di traduzione
-- Evitare l'uso di `->label()`
-- Utilizzare il formato corretto per i campi: `'field' => ['label' => 'Etichetta', 'tooltip' => 'Descrizione']`
+### 1. ConsentResource
 
-## Validazione
-- Eseguire PHPStan per verificare la corretta implementazione
-- Assicurarsi che tutti i metodi astratti siano implementati
-<<<<<<< HEAD
-- Verificare la tipizzazione dei dati 
-## Collegamenti tra versioni di filament-resources.md
-* [filament-resources.md](docs/tecnico/filament/filament-resources.md)
-* [filament-resources.md](docs/regole/filament-resources.md)
-* [filament-resources.md](laravel/Modules/Gdpr/docs/filament-resources.md)
-* [filament-resources.md](laravel/Modules/Xot/docs/filament-resources.md)
-* [filament-resources.md](laravel/Modules/Cms/docs/filament-resources.md)
+Gestisce i consensi degli utenti per il trattamento dei dati personali.
 
-=======
-- Verificare la tipizzazione dei dati 
->>>>>>> 2b419de (.)
+#### Funzionalità
+
+- Creazione e modifica dei consensi
+- Visualizzazione dello storico dei consensi
+- Gestione delle revoche
+- Tracciamento delle modifiche
+
+#### Campi
+
+- `user_id`: ID dell'utente che ha fornito il consenso
+- `type`: Tipo di consenso (es. marketing, newsletter)
+- `status`: Stato del consenso (attivo/revocato)
+- `ip_address`: Indirizzo IP da cui è stato fornito il consenso
+- `timestamp`: Data e ora del consenso
+
+### 2. DataRequestResource
+
+Gestisce le richieste di accesso, modifica o cancellazione dei dati personali.
+
+#### Funzionalità
+
+- Gestione delle richieste di accesso ai dati
+- Tracciamento dello stato delle richieste
+- Esportazione dei dati
+- Notifiche automatiche
+
+#### Campi
+
+- `user_id`: ID dell'utente che ha fatto la richiesta
+- `type`: Tipo di richiesta (accesso/modifica/cancellazione)
+- `status`: Stato della richiesta
+- `notes`: Note aggiuntive
+- `completed_at`: Data di completamento
+
+## Collegamenti
+
+- [Documentazione Generale GDPR](./readme.md)
+- [Configurazione del Modulo](./configuration.md)
+- [Gestione dei Consensi](./consent-management.md)

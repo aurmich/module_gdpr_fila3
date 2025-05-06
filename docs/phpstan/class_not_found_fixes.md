@@ -37,9 +37,6 @@ The PHPDoc for several methods in the Event model references a non-existent Buil
 
 
 ## Collegamenti tra versioni di class_not_found_fixes.md
-<<<<<<< HEAD
 * [class_not_found_fixes.md](../phpstan/class_not_found_fixes.md)
-=======
 * [class_not_found_fixes.md](../PHPStan/class_not_found_fixes.md)
->>>>>>> 72c9d1e (.)
 

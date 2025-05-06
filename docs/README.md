@@ -20,7 +20,7 @@
 > - [README.md tema Two](../../../../laravel/Themes/Two/docs/README.md)
 > - [Collegamenti documentazione centrale](../../../../docs/collegamenti-documentazione.md)
 
-> - [README.md documentazione generale SaluteOra](../../../../docs/README.md)
+> - [README.md documentazione generale <nome progetto>](../../../../docs/README.md)
 > - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
 > - [README.md modulo CMS](../../../../laravel/Modules/Cms/docs/README.md)
 > - [README.md modulo Dental](../../../../laravel/Modules/Dental/docs/README.md)
@@ -217,8 +217,8 @@ Questo modulo è rilasciato sotto licenza MIT. Vedere il file [LICENSE](./LICENS
 
 ## Supporto
 Per supporto e domande:
-- Issue Tracker: [GitHub Issues](https://github.com/saluteora/gdpr-module/issues)
-- Email: support@saluteora.com
+- Issue Tracker: [GitHub Issues](https://github.com/<nome progetto>/gdpr-module/issues)
+- Email: support@<nome progetto>.com
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)

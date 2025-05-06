@@ -224,7 +224,7 @@ Link: </api/gdpr/v2/consents>; rel="successor-version"
 return [
     'paths' => ['api/gdpr/*'],
     'allowed_methods' => ['*'],
-    'allowed_origins' => ['https://saluteora.com'],
+    'allowed_origins' => ['https://<nome progetto>.com'],
     'allowed_headers' => ['*'],
     'exposed_headers' => ['X-RateLimit-Limit'],
     'max_age' => 0,
@@ -255,12 +255,12 @@ class ConsentRequest extends FormRequest
 ```bash
 # Lista consensi
 curl -X GET \
-  https://api.saluteora.com/gdpr/consents \
+  https://api.<nome progetto>.com/gdpr/consents \
   -H 'Authorization: Bearer {token}'
 
 # Crea consenso
 curl -X POST \
-  https://api.saluteora.com/gdpr/consents \
+  https://api.<nome progetto>.com/gdpr/consents \
   -H 'Authorization: Bearer {token}' \
   -H 'Content-Type: application/json' \
   -d '{
@@ -274,7 +274,7 @@ curl -X POST \
 use Illuminate\Support\Facades\Http;
 
 $response = Http::withToken($token)
-    ->post('https://api.saluteora.com/gdpr/consents', [
+    ->post('https://api.<nome progetto>.com/gdpr/consents', [
         'type' => 'marketing',
         'value' => true,
     ]);

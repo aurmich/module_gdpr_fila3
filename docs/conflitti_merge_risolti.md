@@ -2,14 +2,12 @@
 
 ## Problema
 
-<<<<<<< HEAD:docs/conflitti_merge_risolti.md
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 
 ## Collegamenti Bidirezionali
 
 - [Linee Guida Generali per la Risoluzione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md)
 - [Documentazione Conflitti Git nei Moduli](../../../../docs/conflitti_git_moduli.md)
-=======
 
 
 
@@ -35,7 +33,6 @@ aurmich/dev
 
 
 
->>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -64,12 +61,10 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
-<<<<<<< HEAD:docs/conflitti_merge_risolti.md
  *                                                             * @property string $id
  *                                                            =======
  * @property string $id
  *                                                             * @property string $id
-=======
 
 
 
@@ -86,7 +81,6 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
 
 
 
->>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
  * @property int                             $active
  * @property int                             $required
  * @property string $name
@@ -113,12 +107,10 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
-<<<<<<< HEAD:docs/conflitti_merge_risolti.md
  *                                                                                                                                                    ```
  *                                                                                                                                                    =======
 ```
  *                                                                                                                                                    ```
-=======
 
 
 
@@ -135,7 +127,6 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
 
 
 
->>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 ## Soluzione Implementata
 
@@ -193,8 +184,6 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 
 
 
-<<<<<<< HEAD:docs/conflitti_merge_risolti.md
-=======
 
 
 
@@ -214,8 +203,8 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 ```php
 it('verifica che i file corretti non contengano marcatori di conflitto', function () {
     $files = [
-        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Treatment.php',
-        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Profile.php',
+        '/var/www/html/<nome progetto>/laravel/Modules/Gdpr/app/Models/Treatment.php',
+        '/var/www/html/<nome progetto>/laravel/Modules/Gdpr/app/Models/Profile.php',
     ];
 
     foreach ($files as $file) {
@@ -270,12 +259,11 @@ aurmich/dev
 
 
 
->>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
 
 ```bash
-cd /var/www/html/saluteora/laravel && ./vendor/bin/phpstan analyse --level=max Modules/Gdpr/app/Models
+cd /var/www/html/<nome progetto>/laravel && ./vendor/bin/phpstan analyse --level=max Modules/Gdpr/app/Models
 ```
 
 ## Best Practices
@@ -300,7 +288,7 @@ La risoluzione dei conflitti di merge nei file del modulo GDPR ha permesso di:
 4. Creare test automatizzati per verificare l'assenza di conflitti
 
 Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto il progetto.
-Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto SaluteOra.
+Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto <nome progetto>.
 
 ## Collegamenti tra versioni di CONFLITTI_MERGE_RISOLTI.md
 * [CONFLITTI_MERGE_RISOLTI.md](laravel/Modules/Gdpr/docs/CONFLITTI_MERGE_RISOLTI.md)
