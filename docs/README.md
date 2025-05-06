@@ -1,6 +1,6 @@
 # Modulo GDPR
 > **Collegamenti correlati**
-> - [README.md documentazione generale SaluteOra](../../../../docs/README.md)
+> - [README.md documentazione generale](../../../../docs/README.md)
 > - [README.md toolkit bashscripts](../../../../bashscripts/docs/README.md)
 > - [README.md modulo CMS](../../../../laravel/Modules/Cms/docs/README.md)
 > - [README.md modulo Dental](../../../../laravel/Modules/Dental/docs/README.md)
