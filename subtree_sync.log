@@ -30,6 +30,7 @@
 📆 2025-04-24 15:13:19 - 🔧 Configurazione git di base...
 📆 2025-04-24 15:13:19 - ✅ Configurazione git completata
 >>>>>>> aurmich/dev
+<<<<<<< HEAD
 =======
 📆 2025-04-24 17:18:11 - 🔧 Configurazione git di base...
 📆 2025-04-24 17:18:11 - ✅ Configurazione git completata
@@ -59,3 +60,7 @@
 >>>>>>> 72c9d1e (.)
 📆 2025-05-06 14:45:37 - 🔧 Configurazione git di base...
 📆 2025-05-06 14:45:37 - ✅ Configurazione git completata
+=======
+[0;34mℹ️ [2025-05-06 16:44:46] Configurazione avanzata git...[0m
+[0;32m✅ [2025-05-06 16:44:46] Configurazione git completata con successo[0m
+>>>>>>> 2b419de (.)

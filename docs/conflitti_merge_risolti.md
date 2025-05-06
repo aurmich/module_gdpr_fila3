@@ -2,12 +2,40 @@
 
 ## Problema
 
+<<<<<<< HEAD:docs/conflitti_merge_risolti.md
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 
 ## Collegamenti Bidirezionali
 
 - [Linee Guida Generali per la Risoluzione dei Conflitti Git](../../../../docs/risoluzione_conflitti_git.md)
 - [Documentazione Conflitti Git nei Moduli](../../../../docs/conflitti_git_moduli.md)
+=======
+
+
+
+
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+aurmich/dev
+
+
+
+
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+
+
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+aurmich/dev
+
+
+
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+aurmich/dev
+
+
+
+
+
+>>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -36,10 +64,29 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
+<<<<<<< HEAD:docs/conflitti_merge_risolti.md
  *                                                             * @property string $id
  *                                                            =======
  * @property string $id
  *                                                             * @property string $id
+=======
+
+
+
+ *                                                             * @property string $id
+
+
+
+ *                                                            
+ * @property string $id
+
+ *                                                             * @property string $id
+
+
+
+
+
+>>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
  * @property int                             $active
  * @property int                             $required
  * @property string $name
@@ -66,10 +113,29 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
+<<<<<<< HEAD:docs/conflitti_merge_risolti.md
  *                                                                                                                                                    ```
  *                                                                                                                                                    =======
 ```
  *                                                                                                                                                    ```
+=======
+
+
+
+ *                                                                                                                                                    ```
+
+
+
+ *                                                                                                                                                    
+```
+
+ *                                                                                                                                                    ```
+
+
+
+
+
+>>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 ## Soluzione Implementata
 
@@ -127,6 +193,84 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 
 
 
+<<<<<<< HEAD:docs/conflitti_merge_risolti.md
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```php
+it('verifica che i file corretti non contengano marcatori di conflitto', function () {
+    $files = [
+        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Treatment.php',
+        '/var/www/html/saluteora/laravel/Modules/Gdpr/app/Models/Profile.php',
+    ];
+
+    foreach ($files as $file) {
+        $content = file_get_contents($file);
+
+
+
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('origin');
+
+
+
+
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('')
+            ->and($content)->not->toContain('>>>>>>> origin');
+
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('origin');
+
+
+        expect($content)->not->toContain('')
+            ->and($content)->not->toContain('origin');
+
+
+
+
+
+    }
+});
+
+it('verifica che le classi corrette siano istanziabili', function () {
+    expect(new Treatment())->toBeInstanceOf(Treatment::class);
+    expect(new Profile())->toBeInstanceOf(Profile::class);
+});
+```
+
+
+
+aurmich/dev
+
+
+
+
+
+aurmich/dev
+
+
+aurmich/dev
+
+
+
+
+
+>>>>>>> 2b419de (.):docs/CONFLITTI_MERGE_RISOLTI.md
 
 Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
 

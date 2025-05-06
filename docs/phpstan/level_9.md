@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di level_9.md
 * [level_9.md](laravel/Modules/Chart/docs/phpstan/level_9.md)
@@ -16,3 +17,46 @@
 * [level_9.md](laravel/Modules/Patient/docs/phpstan/level_9.md)
 * [level_9.md](laravel/Modules/Cms/docs/phpstan/level_9.md)
 
+=======
+
+
+=======
+
+=======
+
+>>>>>>> aurmich/dev
+
+=======
+
+>>>>>>> aurmich/dev
+=======
+
+>>>>>>> aurmich/dev
+
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+# Rapporto PHPStan Livello 9 per il modulo Gdpr
+
+Data analisi: 2025-04-15 21:49:51
+
+🎉 **Congratulazioni!** Nessun errore trovato a questo livello.
+
+
+=======
+aurmich/dev
+=======
+
+>>>>>>> aurmich/dev
+
+=======
+aurmich/dev
+>>>>>>> aurmich/dev
+=======
+aurmich/dev
+>>>>>>> aurmich/dev
+
+=======
+>>>>>>> aurmich/dev
+>>>>>>> aurmich/dev
+>>>>>>> 2b419de (.)
