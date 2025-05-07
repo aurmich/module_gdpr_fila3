@@ -36,8 +36,13 @@ docs/cache/
 cache/
 .php-cs-fixer.cache
 <<<<<<< HEAD
+<<<<<<< HEAD
 -e 
 # PHPStan documentation
 docs/phpstan/
 =======
 >>>>>>> 2148beb (.)
+=======
+# PHPStan documentation
+docs/phpstan/
+>>>>>>> 07a7cfd (.)

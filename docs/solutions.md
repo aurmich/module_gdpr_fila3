@@ -272,12 +272,28 @@ class AnonymizationTest extends TestCase {
    - Verifica consensi scaduti
    - Aggiornamento policy
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
    - Review sicurezza 
 ## Collegamenti tra versioni di solutions.md
 * [solutions.md](laravel/Modules/Gdpr/docs/solutions.md)
 * [solutions.md](laravel/Modules/Xot/docs/solutions.md)
 * [solutions.md](laravel/Modules/Job/docs/solutions.md)
 
+<<<<<<< HEAD
 =======
    - Review sicurezza 
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+   - Review sicurezza 
+
+---
+
+>>>>>>> 07a7cfd (.)

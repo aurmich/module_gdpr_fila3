@@ -16,16 +16,23 @@ use Modules\User\Models\BaseProfile;
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> 07a7cfd (.)
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
+<<<<<<< HEAD
  *                                                                                                                                                    =======
  *                                                                                                                                                    > 76348cc6b642ef946f57e308db4e1c6210448bea
+=======
+ *                                                                                                                                                     *                                                                                                                                                    > 76348cc6b642ef946f57e308db4e1c6210448bea
+>>>>>>> 07a7cfd (.)
  * @property \Illuminate\Support\Carbon|null                                                                               $created_at
  * @property \Illuminate\Support\Carbon|null                                                                               $updated_at
  * @property string|null                                                                                                   $user_id
@@ -34,16 +41,24 @@ use Modules\User\Models\BaseProfile;
  * @property \Illuminate\Support\Carbon|null                                                                               $deleted_at
  * @property string|null                                                                                                   $deleted_by
  * @property int                                                                                                           $is_active
+<<<<<<< HEAD
  *                                                                                                                                                    =======
  * @property int                                                                                                           $id
+=======
+ *                                                                                                                                                     * @property int                                                                                                           $id
+>>>>>>> 07a7cfd (.)
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
+<<<<<<< HEAD
 =======
 >>>>>>> origin/dev
 >>>>>>> 2148beb (.)
+=======
+ origin/dev
+>>>>>>> 07a7cfd (.)
  * @property \Illuminate\Support\Carbon|null                                                                               $created_at
  * @property \Illuminate\Support\Carbon|null                                                                               $updated_at
  * @property string|null                                                                                                   $user_id

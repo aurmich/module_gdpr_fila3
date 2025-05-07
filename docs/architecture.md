@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 # Architettura Modulo GDPR
 
 ## Struttura del Modulo
@@ -82,7 +88,13 @@ namespace Modules\Gdpr\Models;
 use Modules\Xot\Models\XotBaseModel;
 
 class Consent extends XotBaseModel
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 # Architettura del Modulo GDPR
 
 ## Panoramica
@@ -98,12 +110,24 @@ L'architettura del modulo GDPR è progettata per garantire la massima conformit�
 #### Models
 ```php
 class Consent extends Model
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
 {
     protected $fillable = [
         'user_id',
         'type',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
         'value',
         'expires_at',
     ];
@@ -111,7 +135,13 @@ class Consent extends Model
     protected $casts = [
         'value' => 'boolean',
         'expires_at' => 'datetime',
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
         'status',
         'version',
         'ip_address'
@@ -120,7 +150,13 @@ class Consent extends Model
     protected $casts = [
         'status' => 'boolean',
         'metadata' => 'array'
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     ];
 }
 ```
@@ -128,6 +164,12 @@ class Consent extends Model
 #### Services
 ```php
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 namespace Modules\Gdpr\Services;
 
 class ConsentService
@@ -141,7 +183,13 @@ class ConsentService
     {
         $this->validator->validate($data);
         return $this->repository->create($data);
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 class ConsentService
 {
     public function storeConsent(User $user, array $data): Consent
@@ -161,12 +209,24 @@ class ConsentService
 
             return $consent;
         });
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 ### 3. Data Layer
 
 #### Repositories
@@ -183,7 +243,13 @@ class ConsentRepository extends XotBaseRepository
             ->where('user_id', $user->id)
             ->where('expires_at', '>', now())
             ->get();
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 ### 2. Database
 #### Migrazioni
 ```php
@@ -219,12 +285,24 @@ class ConsentController extends Controller
         );
 
         return new ConsentResource($consent);
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 #### Factories
 ```php
 namespace Modules\Gdpr\Database\Factories;
@@ -241,7 +319,13 @@ class ConsentFactory extends Factory
             'type' => $this->faker->randomElement(['marketing', 'analytics']),
             'value' => $this->faker->boolean,
             'expires_at' => now()->addDays(30),
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 #### Middleware
 ```php
 class ValidateConsent
@@ -332,13 +416,25 @@ class ConsentFactory extends Factory
             'status' => $this->faker->boolean,
             'version' => '1.0.0',
             'ip_address' => $this->faker->ipv4
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
         ];
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 ## Componenti Principali
 
 ### 1. Service Provider
@@ -459,7 +555,13 @@ class ConsentExpirationNotification extends Notification
         return (new MailMessage)
             ->subject('Consenso in scadenza')
             ->line('Il tuo consenso sta per scadere.');
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 ## Performance
 
 ### 1. Caching
@@ -490,12 +592,24 @@ class StoreConsentRequest extends FormRequest
             'status' => ['required', 'boolean'],
             'version' => ['required', 'string']
         ];
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 ## Collegamenti Bidirezionali
 
 ### Collegamenti ad Altri Moduli
@@ -508,7 +622,13 @@ class StoreConsentRequest extends FormRequest
 - [Implementazione](./implementation.md)
 - [Configurazione](./configuration.md)
 - [Security](./security.md) 
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 ### 2. Cifratura
 - Dati sensibili cifrati
 - Backup cifrati
@@ -519,7 +639,13 @@ class StoreConsentRequest extends FormRequest
 - Permessi specifici
 - Audit log
 
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
 ## Estensibilità
 
 ### 1. Eventi
@@ -550,6 +676,12 @@ class GdprMiddleware
 - [Pacchetti](packages.md)
 - [Roadmap](roadmap.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di architecture.md
 * [architecture.md](docs/tecnico/filament/architecture.md)
@@ -559,5 +691,14 @@ class GdprMiddleware
 * [architecture.md](laravel/Modules/Cms/docs/architecture.md)
 * [architecture.md](laravel/Themes/One/docs/roadmap/inspiration/architecture.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

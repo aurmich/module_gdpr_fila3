@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 # Roadmap Modulo GDPR
 
 ## Q2 2024
@@ -115,7 +121,13 @@
 - [Bottlenecks](./bottlenecks.md)
 - [Configurazione](./configuration.md)
 - [Implementazione](./implementation.md) 
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 # Roadmap del Modulo Gdpr
 
 ## Stato Generale
@@ -148,12 +160,24 @@
 - Tempo di Risposta API: < 200ms
 - Backup Automatici: 100% completati
 
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
 ## Collegamenti
 - [Architettura](architecture.md)
 - [Sviluppo](development.md)
 - [Pacchetti](packages.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di roadmap.md
 * [roadmap.md](bashscripts/docs/roadmap.md)
@@ -173,5 +197,14 @@
 * [roadmap.md](laravel/Modules/Cms/docs/roadmap.md)
 * [roadmap.md](laravel/Themes/One/docs/roadmap.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

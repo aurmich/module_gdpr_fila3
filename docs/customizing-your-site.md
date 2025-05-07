@@ -74,6 +74,12 @@ class Foo extends bar
 
 </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di customizing-your-site.md
 * [customizing-your-site.md](laravel/Modules/Gdpr/docs/customizing-your-site.md)
@@ -82,5 +88,14 @@ class Foo extends bar
 * [customizing-your-site.md](laravel/Modules/Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](laravel/Modules/Cms/docs/customizing-your-site.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

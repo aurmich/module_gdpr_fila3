@@ -1,4 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 # Implementazione Modulo GDPR
 
 ## Struttura
@@ -88,7 +94,13 @@ class ConsentResource extends XotBaseResource
             Forms\Components\DateTimePicker::make('expires_at')
                 ->required(),
         ]);
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 # Implementazione Gdpr
 
 ## Struttura del Codice
@@ -192,7 +204,13 @@ class ConsentPage extends Page
                 ])
                 ->required(),
         ];
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     }
 }
 ```
@@ -202,6 +220,12 @@ class ConsentPage extends Page
 namespace Modules\Gdpr\Filament\Widgets;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 use Modules\Xot\Filament\Widgets\XotBaseWidget;
 
 class ConsentOverview extends XotBaseWidget
@@ -214,7 +238,13 @@ class ConsentOverview extends XotBaseWidget
             'total_consents' => Consent::count(),
             'active_consents' => Consent::where('value', true)->count(),
             'expired_consents' => Consent::where('expires_at', '<', now())->count(),
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 use Filament\Widgets\StatsOverviewWidget as BaseWidget;
 
 class GdprStatsOverview extends BaseWidget
@@ -228,13 +258,25 @@ class GdprStatsOverview extends BaseWidget
             Stat::make('Richieste', Request::count())
                 ->description('Richieste GDPR')
                 ->descriptionIcon('heroicon-m-document-text'),
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
         ];
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 ## Traits
 
 ### HasGdprConsent
@@ -330,7 +372,13 @@ class ProcessDataExport implements ShouldQueue
         $data = $exporter->export($this->user);
         
         event(new DataExported($this->user, $this->format));
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 ## Servizi
 
 ### Gestione Consensi
@@ -457,12 +505,24 @@ class ConsentServiceTest extends TestCase
         $consent = Consent::where('type', $type)->first();
         $this->assertNotNull($consent);
         $this->assertTrue($consent->active);
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)
     }
 }
 ```
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 ## Middleware
 
 ### EnsureValidConsent
@@ -501,7 +561,13 @@ class EnsureValidConsent
 * [implementation.md](laravel/Modules/Xot/docs/implementation.md)
 * [implementation.md](laravel/Modules/Job/docs/implementation.md)
 
+<<<<<<< HEAD
 =======
+=======
+
+### Versione Alternativa
+
+>>>>>>> 07a7cfd (.)
 ### Feature Tests
 ```php
 class ConsentPageTest extends TestCase
@@ -523,4 +589,10 @@ class ConsentPageTest extends TestCase
     }
 }
 ``` 
+<<<<<<< HEAD
 >>>>>>> 2148beb (.)
+=======
+
+---
+
+>>>>>>> 07a7cfd (.)

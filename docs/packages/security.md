@@ -91,11 +91,26 @@ if (Cookie::isEncrypted('name')) {
 - [Backup](backup.md)
 - [Panoramica](../packages.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di security.md
 * [security.md](laravel/Modules/Gdpr/docs/packages/security.md)
 * [security.md](laravel/Modules/Cms/docs/frontoffice/security.md)
 * [security.md](laravel/Themes/One/docs/security.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

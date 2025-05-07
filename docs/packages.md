@@ -178,6 +178,12 @@ class GdprEncryptionService
 - [Sviluppo](development.md)
 - [Roadmap](roadmap.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di packages.md
 * [packages.md](laravel/Modules/Gdpr/docs/packages.md)
@@ -190,5 +196,14 @@ class GdprEncryptionService
 * [packages.md](laravel/Modules/Media/docs/packages.md)
 * [packages.md](laravel/Modules/Tenant/docs/packages.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

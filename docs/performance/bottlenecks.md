@@ -185,6 +185,12 @@ Implementare:
    }
    ```
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](laravel/Modules/Gdpr/docs/performance/bottlenecks.md)
@@ -198,5 +204,14 @@ Implementare:
 * [bottlenecks.md](laravel/Modules/Media/docs/performance/bottlenecks.md)
 * [bottlenecks.md](laravel/Modules/Patient/docs/roadmap/bottlenecks.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

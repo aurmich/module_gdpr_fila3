@@ -1,6 +1,18 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+
+### Versione Alternativa
+
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 # 🔒 Gdpr Module - Gestione Privacy e Dati
 
 [![PHP Version](https://img.shields.io/badge/PHP-8.2+-blue.svg)](https://php.net)
@@ -117,8 +129,17 @@ Questo progetto è distribuito sotto la licenza MIT. Vedi il file [LICENSE](LICE
 This project is distributed under the MIT license. See the [LICENSE](LICENSE) file for more details.
 
 Este proyecto está distribuido bajo la licencia MIT. Ver el archivo [LICENSE](LICENSE) para más detalles.
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)
 # GDPR Module Fila3 🔒 Your All-in-One GDPR Compliance Solution for Laravel 🚀
 
 [![Latest Release](https://img.shields.io/github/v/release/laraxot/module_gdpr_fila3)](https://github.com/laraxot/module_gdpr_fila3/releases)
@@ -247,8 +268,25 @@ php artisan module:enable Gdpr
 ```bash
 php artisan module:migrate Gdpr
 <<<<<<< HEAD
+<<<<<<< HEAD
 ```
 =======
 ```
 >>>>>>> origin/dev
 >>>>>>> 2148beb (.)
+=======
+
+### Versione HEAD
+
+```
+
+### Versione Alternativa
+
+```
+
+---
+
+
+---
+
+>>>>>>> 07a7cfd (.)

@@ -19,10 +19,14 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null                     $documentUrl
  * @property int                             $weight
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
  *                                                            =======
  * @property string $id
+=======
+ *                                                             * @property string $id
+>>>>>>> 07a7cfd (.)
  * @property int                             $active
  * @property int                             $required
  * @property string $name
@@ -30,9 +34,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
+<<<<<<< HEAD
 =======
 >>>>>>> origin/dev
 >>>>>>> 2148beb (.)
+=======
+ origin/dev
+>>>>>>> 07a7cfd (.)
  * @property \Illuminate\Support\Carbon|null $created_at
  * @property \Illuminate\Support\Carbon|null $updated_at
  * @property string|null                     $updated_by

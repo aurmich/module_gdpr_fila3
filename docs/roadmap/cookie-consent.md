@@ -95,10 +95,25 @@ class CookieConsentController extends Controller
 - [Sviluppo](../development.md)
 - [Pacchetti](../packages.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di cookie-consent.md
 * [cookie-consent.md](laravel/Modules/Gdpr/docs/packages/cookie-consent.md)
 * [cookie-consent.md](laravel/Modules/Gdpr/docs/roadmap/cookie-consent.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

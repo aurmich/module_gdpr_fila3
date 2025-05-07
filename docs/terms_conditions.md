@@ -7,10 +7,25 @@ https://julienboyer.re/plugins/filament-terms-guard/readme
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di terms_conditions.md
 * [terms_conditions.md](laravel/Modules/Gdpr/docs/terms_conditions.md)
 * [terms_conditions.md](laravel/Modules/User/docs/terms_conditions.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

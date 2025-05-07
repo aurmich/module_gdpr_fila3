@@ -309,10 +309,25 @@ class GdprPermissionCleanup
 - [Architettura](../architecture.md)
 - [Sviluppo](../development.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di permissions.md
 * [permissions.md](../../../User/docs/permissions.md)
 * [permissions.md](../../../Patient/docs/permissions.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)

@@ -278,10 +278,25 @@ jobs:
 - [Pacchetti](packages.md)
 - [Roadmap](roadmap.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+### Versione HEAD
+
+>>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di development.md
 * [development.md](laravel/Modules/Gdpr/docs/development.md)
 * [development.md](laravel/Modules/Xot/docs/packages/development.md)
 
+<<<<<<< HEAD
 =======
 >>>>>>> 2148beb (.)
+=======
+
+### Versione Alternativa
+
+
+---
+
+>>>>>>> 07a7cfd (.)
