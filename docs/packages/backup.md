@@ -327,8 +327,11 @@ class BackupCleanupService
 - [Documentazione ufficiale](https://spatie.be/docs/laravel-backup)
 - [Architettura](../architecture.md)
 - [Sviluppo](../development.md) 
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di backup.md
 * [backup.md](docs/roadmap/deployment/backup.md)
 * [backup.md](laravel/Modules/Gdpr/docs/packages/backup.md)
 
+=======
+>>>>>>> 2148beb (.)

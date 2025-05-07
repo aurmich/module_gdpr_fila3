@@ -177,6 +177,7 @@ class GdprEncryptionService
 - [Architettura](architecture.md)
 - [Sviluppo](development.md)
 - [Roadmap](roadmap.md) 
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di packages.md
 * [packages.md](laravel/Modules/Gdpr/docs/packages.md)
@@ -189,3 +190,5 @@ class GdprEncryptionService
 * [packages.md](laravel/Modules/Media/docs/packages.md)
 * [packages.md](laravel/Modules/Tenant/docs/packages.md)
 
+=======
+>>>>>>> 2148beb (.)
