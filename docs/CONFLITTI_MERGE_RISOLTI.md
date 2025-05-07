@@ -12,7 +12,11 @@ aurmich/dev
 
 
 
+<<<<<<< HEAD
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e `>>>>>>> origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+=======
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `` e `` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+>>>>>>> d65e584 (.)
 
 
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori come ``, `origin/dev` nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
@@ -206,7 +210,11 @@ it('verifica che i file corretti non contengano marcatori di conflitto', functio
 
         expect($content)->not->toContain('')
             ->and($content)->not->toContain('')
+<<<<<<< HEAD
             ->and($content)->not->toContain('>>>>>>> origin');
+=======
+            ->and($content)->not->toContain(' origin');
+>>>>>>> d65e584 (.)
 
         expect($content)->not->toContain('')
             ->and($content)->not->toContain('origin');
