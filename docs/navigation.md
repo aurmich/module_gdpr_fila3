@@ -32,13 +32,6 @@ return [
 // blade files
 $page->navigation
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-### Versione HEAD
-
->>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di navigation.md
 * [navigation.md](laravel/Modules/Gdpr/docs/navigation.md)
@@ -48,14 +41,3 @@ $page->navigation
 * [navigation.md](laravel/Modules/Cms/docs/navigation.md)
 * [navigation.md](laravel/Modules/Cms/docs/components/navigation.md)
 
-<<<<<<< HEAD
-=======
->>>>>>> 2148beb (.)
-=======
-
-### Versione Alternativa
-
-
----
-
->>>>>>> 07a7cfd (.)

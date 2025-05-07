@@ -5,14 +5,7 @@
 .git-rewrite
 .php-cs-fixer.cache
 *.phar
-<<<<<<< HEAD
 *.log
-=======
-<<<<<<< HEAD
-=======
-*.log
->>>>>>> origin/dev
->>>>>>> 2148beb (.)
 .php-cs-fixer.cache
 *.lock
 .git-blame-ignore-revs
@@ -35,14 +28,6 @@ node_modules
 docs/cache/
 cache/
 .php-cs-fixer.cache
-<<<<<<< HEAD
-<<<<<<< HEAD
 -e 
 # PHPStan documentation
 docs/phpstan/
-=======
->>>>>>> 2148beb (.)
-=======
-# PHPStan documentation
-docs/phpstan/
->>>>>>> 07a7cfd (.)

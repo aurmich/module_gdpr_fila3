@@ -93,13 +93,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 # options: dev, prod
 npm run dev
 ```
-<<<<<<< HEAD
-<<<<<<< HEAD
 =======
-
-### Versione HEAD
-
->>>>>>> 07a7cfd (.)
 # Modulo GDPR
 
 ## Panoramica
@@ -199,14 +193,3 @@ Gdpr/
 * [readme.md](laravel/Modules/Activity/docs/readme.md)
 * [readme.md](laravel/Modules/Cms/docs/readme.md)
 
-<<<<<<< HEAD
-=======
->>>>>>> 2148beb (.)
-=======
-
-### Versione Alternativa
-
-
----
-
->>>>>>> 07a7cfd (.)

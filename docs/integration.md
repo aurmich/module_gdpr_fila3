@@ -64,29 +64,9 @@
 - Aggiornare le dipendenze
 - Verificare la compatibilità
 - Testare le modifiche
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-### Versione HEAD
-
->>>>>>> 07a7cfd (.)
 - Documentare i cambiamenti 
 ## Collegamenti tra versioni di integration.md
 * [integration.md](laravel/Modules/Gdpr/docs/integration.md)
 * [integration.md](laravel/Modules/Xot/docs/integration.md)
 * [integration.md](laravel/Modules/Job/docs/integration.md)
 
-<<<<<<< HEAD
-=======
-- Documentare i cambiamenti 
->>>>>>> 2148beb (.)
-=======
-
-### Versione Alternativa
-
-- Documentare i cambiamenti 
-
----
-
->>>>>>> 07a7cfd (.)

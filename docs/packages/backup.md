@@ -327,26 +327,8 @@ class BackupCleanupService
 - [Documentazione ufficiale](https://spatie.be/docs/laravel-backup)
 - [Architettura](../architecture.md)
 - [Sviluppo](../development.md) 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
-### Versione HEAD
-
->>>>>>> 07a7cfd (.)
 
 ## Collegamenti tra versioni di backup.md
 * [backup.md](docs/roadmap/deployment/backup.md)
 * [backup.md](laravel/Modules/Gdpr/docs/packages/backup.md)
 
-<<<<<<< HEAD
-=======
->>>>>>> 2148beb (.)
-=======
-
-### Versione Alternativa
-
-
----
-
->>>>>>> 07a7cfd (.)
