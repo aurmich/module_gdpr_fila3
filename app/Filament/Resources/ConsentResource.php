@@ -28,7 +28,7 @@ class ConsentResource extends XotBaseResource
         ];
     }
 
-    public function getListTableColumns(): array
+    public function getTableColumns(): array
     {
         return [
             Tables\Columns\TextColumn::make('id')
