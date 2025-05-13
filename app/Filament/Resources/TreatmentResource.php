@@ -41,7 +41,11 @@ class TreatmentResource extends XotBaseResource
         ];
     }
 
+<<<<<<< HEAD
     public function getTableColumns(): array
+=======
+    public function getListTableColumns(): array
+>>>>>>> eca75e4 (.)
     {
         return [
             // Tables\Columns\TextColumn::make('id')
