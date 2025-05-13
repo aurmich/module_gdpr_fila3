@@ -5,6 +5,7 @@
 [0;32m✅ [2025-05-12 22:19:10] Configurazione git completata con successo[0m
 [0;34mℹ️ [2025-05-12 22:27:26] Configurazione avanzata git...[0m
 [0;32m✅ [2025-05-12 22:27:26] Configurazione git completata con successo[0m
+<<<<<<< HEAD
 =======
 📆 2025-04-23 18:56:14 - 🔧 Configurazione git di base...
 📆 2025-04-23 18:56:14 - ✅ Configurazione git completata
@@ -89,3 +90,7 @@
 [0;32m✅ [2025-05-13 16:47:22] Configurazione git completata con successo[0m
 [0;34mℹ️ [2025-05-13 20:53:29] Configurazione avanzata git...[0m
 [0;32m✅ [2025-05-13 20:53:29] Configurazione git completata con successo[0m
+=======
+[0;34mℹ️ [2025-05-13 20:57:01] Configurazione avanzata git...[0m
+[0;32m✅ [2025-05-13 20:57:01] Configurazione git completata con successo[0m
+>>>>>>> d060fa2 (.)
