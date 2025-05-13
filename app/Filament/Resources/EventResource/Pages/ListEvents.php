@@ -12,15 +12,7 @@ class ListEvents extends XotBaseListRecords
 {
     protected static string $resource = EventResource::class;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
     public function getTableColumns(): array
-=======
-    public function getListTableColumns(): array
->>>>>>> eca75e4 (.)
-=======
-    public function getTableColumns(): array
->>>>>>> 53adc5c (.)
     {
         return [
             'id' => Tables\Columns\TextColumn::make('id')
