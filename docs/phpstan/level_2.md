@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 
 
 =======
@@ -39,3 +40,12 @@ aurmich/dev
 =======
 >>>>>>> aurmich/dev
 >>>>>>> aurmich/dev
+=======
+# Analisi PHPStan Livello 2 per il modulo Gdpr
+
+Data: Wed Apr 23 21:21:34 CEST 2025
+
+## Nessun errore trovato
+
+Il modulo Gdpr ha superato l'analisi PHPStan al livello 2 senza errori.
+>>>>>>> Stashed changes
