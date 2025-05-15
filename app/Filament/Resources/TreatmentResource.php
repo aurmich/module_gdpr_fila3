@@ -41,11 +41,15 @@ class TreatmentResource extends XotBaseResource
         ];
     }
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     public function getTableColumns(): array
 =======
     public function getListTableColumns(): array
 >>>>>>> 5a16bb4 (.)
+=======
+    public function getTableColumns(): array
+>>>>>>> Stashed changes
     {
         return [
             // Tables\Columns\TextColumn::make('id')
