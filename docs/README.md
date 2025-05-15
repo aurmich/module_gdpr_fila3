@@ -219,6 +219,7 @@ Questo modulo è rilasciato sotto licenza MIT. Vedere il file [LICENSE](./LICENS
 Per supporto e domande:
 - Issue Tracker: [GitHub Issues](https://github.com/<nome progetto>/gdpr-module/issues)
 - Email: support@<nome progetto>.com
+<<<<<<< HEAD
 
 ## Server MCP consigliati per Gdpr
 
@@ -237,6 +238,8 @@ Per il modulo Gdpr, si consiglia di utilizzare i seguenti server MCP:
 
 Per dettagli e best practice consulta la guida generale MCP nel workspace.
 
+=======
+>>>>>>> 5a16bb4 (.)
 ## Collegamenti tra versioni di README.md
 * [README.md](bashscripts/docs/README.md)
 * [README.md](bashscripts/docs/it/README.md)
