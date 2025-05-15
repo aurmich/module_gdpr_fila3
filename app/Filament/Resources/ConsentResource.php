@@ -28,27 +28,7 @@ class ConsentResource extends XotBaseResource
         ];
     }
 
-<<<<<<< Updated upstream
-<<<<<<< HEAD
     public function getTableColumns(): array
-=======
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-<<<<<<< HEAD
-    public function getTableColumns(): array
-=======
-    public function getListTableColumns(): array
->>>>>>> 5a16bb4 (.)
-=======
-    public function getTableColumns(): array
->>>>>>> Stashed changes
-=======
-    public function getListTableColumns(): array
->>>>>>> 60290b2 (.)
->>>>>>> 00b0358 (.)
-=======
-    public function getTableColumns(): array
->>>>>>> Stashed changes
     {
         return [
             Tables\Columns\TextColumn::make('id')
