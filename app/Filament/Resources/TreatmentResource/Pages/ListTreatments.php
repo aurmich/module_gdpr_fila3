@@ -13,6 +13,7 @@ class ListTreatments extends XotBaseListRecords
 {
     protected static string $resource = TreatmentResource::class;
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     public function getTableColumns(): array
 =======
@@ -30,6 +31,9 @@ class ListTreatments extends XotBaseListRecords
     public function getListTableColumns(): array
 >>>>>>> 60290b2 (.)
 >>>>>>> 00b0358 (.)
+=======
+    public function getTableColumns(): array
+>>>>>>> Stashed changes
     {
         return [
             'id' => TextColumn::make('id')

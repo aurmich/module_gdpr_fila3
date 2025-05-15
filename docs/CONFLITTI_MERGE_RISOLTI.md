@@ -31,18 +31,6 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
-<<<<<<< HEAD
-=======
- *                                                            =======
- * @property string $id
- * @property int                             $active
- * @property int                             $required
- * @property string $name
- * @property string $description
- * @property string|null                     $documentVersion
- * @property string|null                     $documentUrl
- * @property int                             $weight
->>>>>>> 60290b2 (.)
 ```
 
 #### 2. Conflitti nelle Definizioni di Proprietà
@@ -56,16 +44,6 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
-<<<<<<< HEAD
-=======
- * @property int                                                                                                           $id
- * @property string|null                                                                                                   $type
- * @property string|null                                                                                                   $first_name
- * @property string|null                                                                                                   $last_name
- * @property string|null                                                                                                   $full_name
- * @property string|null                                                                                                   $email
- *                                                                                                                                                    =======
->>>>>>> 60290b2 (.)
 ```
 
 ## Soluzione Implementata
@@ -122,36 +100,3 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 2. L'istanziazione corretta delle classi
 3. L'accesso alle proprietà delle classi
 
-<<<<<<< HEAD
-=======
-
-
-Inoltre, è stata eseguita un'analisi PHPStan a livello massimo per verificare che non ci siano errori di tipizzazione o documentazione nei file corretti:
-
-```bash
-cd /var/www/html/saluteora/laravel && ./vendor/bin/phpstan analyse --level=max Modules/Gdpr/app/Models
-```
-
-## Best Practices
-
-Per prevenire futuri conflitti di merge, si consiglia di:
-
-1. **Effettuare commit frequenti** di piccole modifiche
-2. **Aggiornare regolarmente** il proprio ramo di sviluppo con il ramo principale
-3. **Comunicare** con gli altri sviluppatori quando si lavora sugli stessi file
-4. **Utilizzare strumenti di code review** prima di effettuare il merge
-5. **Seguire convenzioni di codice** condivise dal team
-6. **Utilizzare strumenti di formattazione automatica** del codice
-7. **Organizzare il lavoro** per minimizzare le modifiche simultanee agli stessi file
-
-## Conclusioni
-
-La risoluzione dei conflitti di merge nei file del modulo GDPR ha permesso di:
-
-1. Ripristinare la corretta funzionalità del codice
-2. Migliorare la documentazione delle classi
-3. Garantire la compatibilità con l'analisi statica di PHPStan
-4. Creare test automatizzati per verificare l'assenza di conflitti
-
-Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modulo GDPR, garantendo che rispetti gli standard di qualità del progetto SaluteOra.
->>>>>>> 60290b2 (.)

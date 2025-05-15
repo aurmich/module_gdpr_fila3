@@ -15,6 +15,7 @@ class ListProfiles extends UserListProfiles
     /**
      * @return array<string, Tables\Columns\Column>
      */
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     public function getTableColumns(): array
 =======
@@ -32,6 +33,9 @@ class ListProfiles extends UserListProfiles
     public function getListTableColumns(): array
 >>>>>>> 60290b2 (.)
 >>>>>>> 00b0358 (.)
+=======
+    public function getTableColumns(): array
+>>>>>>> Stashed changes
     {
         return [
             'id' => Tables\Columns\TextColumn::make('id')

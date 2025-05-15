@@ -13,6 +13,7 @@ class ListConsents extends XotBaseListRecords
 {
     protected static string $resource = ConsentResource::class;
 
+<<<<<<< Updated upstream
 <<<<<<< HEAD
     public function getTableColumns(): array
 =======
@@ -30,6 +31,9 @@ class ListConsents extends XotBaseListRecords
     public function getListTableColumns(): array
 >>>>>>> 60290b2 (.)
 >>>>>>> 00b0358 (.)
+=======
+    public function getTableColumns(): array
+>>>>>>> Stashed changes
     {
         return [
             'id' => TextColumn::make('id')
