@@ -64,9 +64,13 @@
 - Aggiornare le dipendenze
 - Verificare la compatibilità
 - Testare le modifiche
+<<<<<<< HEAD
 - Documentare i cambiamenti 
 ## Collegamenti tra versioni di integration.md
 * [integration.md](laravel/Modules/Gdpr/docs/integration.md)
 * [integration.md](laravel/Modules/Xot/docs/integration.md)
 * [integration.md](laravel/Modules/Job/docs/integration.md)
 
+=======
+- Documentare i cambiamenti 
+>>>>>>> 60290b2 (.)

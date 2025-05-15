@@ -308,8 +308,11 @@ class GdprPermissionCleanup
 - [Documentazione ufficiale](https://spatie.be/docs/laravel-permission)
 - [Architettura](../architecture.md)
 - [Sviluppo](../development.md) 
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di permissions.md
 * [permissions.md](../../../User/docs/permissions.md)
 * [permissions.md](../../../Patient/docs/permissions.md)
 
+=======
+>>>>>>> 60290b2 (.)

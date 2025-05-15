@@ -7,6 +7,11 @@ namespace Modules\Gdpr\Tests\Feature;
 use Modules\Gdpr\Models\Profile;
 use Modules\Gdpr\Models\Treatment;
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 60290b2 (.)
 it('verifica che le classi corrette siano istanziabili', function () {
     expect(new Treatment())->toBeInstanceOf(Treatment::class);
     expect(new Profile())->toBeInstanceOf(Profile::class);
