@@ -73,7 +73,6 @@ class Foo extends bar
 ```
 
 </div>
-<<<<<<< HEAD
 
 ## Collegamenti tra versioni di customizing-your-site.md
 * [customizing-your-site.md](laravel/Modules/Gdpr/docs/customizing-your-site.md)
@@ -82,5 +81,3 @@ class Foo extends bar
 * [customizing-your-site.md](laravel/Modules/Tenant/docs/it/customizing-your-site.md)
 * [customizing-your-site.md](laravel/Modules/Cms/docs/customizing-your-site.md)
 
-=======
->>>>>>> 0f5e748 (.)
