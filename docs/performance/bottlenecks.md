@@ -184,6 +184,7 @@ Implementare:
          );
    }
    ```
+<<<<<<< HEAD
 
 ## Collegamenti tra versioni di bottlenecks.md
 * [bottlenecks.md](laravel/Modules/Gdpr/docs/performance/bottlenecks.md)
@@ -197,3 +198,5 @@ Implementare:
 * [bottlenecks.md](laravel/Modules/Media/docs/performance/bottlenecks.md)
 * [bottlenecks.md](laravel/Modules/Patient/docs/roadmap/bottlenecks.md)
 
+=======
+>>>>>>> 0f5e748 (.)
