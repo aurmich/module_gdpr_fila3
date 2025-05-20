@@ -7,10 +7,14 @@
 {
     "require": {
 <<<<<<< HEAD
+<<<<<<< HEAD
         "laravel/framework": "*",
 =======
         "laravel/framework": "^11.0",
 >>>>>>> 21beb1e (.)
+=======
+        "laravel/framework": "*",
+>>>>>>> 48c0920 (.)
         "laravel/sanctum": "^4.0",
         "laravel/tinker": "^2.0"
     }
