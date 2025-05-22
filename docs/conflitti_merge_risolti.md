@@ -2,6 +2,7 @@
 
 ## Problema
 
+<<<<<<< HEAD
 Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
 
 ## Collegamenti Bidirezionali
@@ -33,6 +34,9 @@ aurmich/dev
 
 
 
+=======
+Durante lo sviluppo del modulo GDPR, sono stati identificati diversi file con conflitti di merge non risolti. Questi conflitti erano indicati dalla presenza di marcatori  nel codice sorgente. I conflitti non risolti impedivano la corretta esecuzione del codice e causavano errori durante l'analisi statica con PHPStan.
+>>>>>>> 002baec (.)
 
 I file principali con conflitti erano:
 - `Modules/Gdpr/app/Models/Treatment.php`
@@ -61,6 +65,7 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
+<<<<<<< HEAD
  *                                                             * @property string $id
  *                                                            =======
  * @property string $id
@@ -88,6 +93,8 @@ In `Treatment.php`, c'erano conflitti nelle annotazioni PHPDoc delle proprietà:
  * @property string|null                     $documentVersion
  * @property string|null                     $documentUrl
  * @property int                             $weight
+=======
+>>>>>>> 002baec (.)
 ```
 
 #### 2. Conflitti nelle Definizioni di Proprietà
@@ -101,6 +108,7 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
  * @property string|null                                                                                                   $last_name
  * @property string|null                                                                                                   $full_name
  * @property string|null                                                                                                   $email
+<<<<<<< HEAD
  * @property int                                                                                                           $id
  * @property string|null                                                                                                   $type
  * @property string|null                                                                                                   $first_name
@@ -127,6 +135,9 @@ In `Profile.php`, c'erano conflitti nelle definizioni delle proprietà e dei met
 
 
 
+=======
+```
+>>>>>>> 002baec (.)
 
 ## Soluzione Implementata
 
@@ -182,6 +193,7 @@ Per verificare la correttezza della soluzione, sono stati creati test Pest che v
 2. L'istanziazione corretta delle classi
 3. L'accesso alle proprietà delle classi
 
+<<<<<<< HEAD
 
 
 
@@ -302,3 +314,5 @@ Queste correzioni contribuiscono alla stabilità e alla manutenibilità del modu
 * [conflitti_merge_risolti.md](../../UI/docs/conflitti_merge_risolti.md)
 * [conflitti_merge_risolti.md](../../Media/docs/conflitti_merge_risolti.md)
 
+=======
+>>>>>>> 002baec (.)
