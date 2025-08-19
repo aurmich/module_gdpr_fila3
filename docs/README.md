@@ -91,6 +91,7 @@ Gdpr/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7f7ca59 (.)
 =======
@@ -164,4 +165,14 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 >>>>>>> 7f7ca59 (.)
 =======
 >>>>>>> 3f0cea7 (.)
+=======
+- [Roadmap](roadmap.md) 
+
+## Collegamenti tra versioni di readme.md
+* [readme.md](laravel/Modules/Gdpr/docs/readme.md)
+* [readme.md](laravel/Modules/UI/docs/readme.md)
+* [readme.md](laravel/Modules/Lang/docs/readme.md)
+* [readme.md](laravel/Modules/Activity/docs/readme.md)
+* [readme.md](laravel/Modules/Cms/docs/readme.md)
+>>>>>>> 3d38470 (.)
 
