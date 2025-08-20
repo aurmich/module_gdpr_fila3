@@ -88,23 +88,6 @@ Gdpr/
 - [Architettura](architecture.md)
 - [Sviluppo](development.md)
 - [Pacchetti](packages.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 376bc0e6 (fix conflitti sync remote repo aurmich)
-=======
->>>>>>> 7f7ca59 (.)
-=======
->>>>>>> 3f0cea7 (.)
-<<<<<<< HEAD
-=======
->>>>>>> 6b3610a (.)
-=======
->>>>>>> 376bc0e6 (fix conflitti sync remote repo aurmich)
 - [Roadmap](roadmap.md) 
 
 ## Collegamenti tra versioni di readme.md
@@ -113,15 +96,6 @@ Gdpr/
 * [readme.md](laravel/Modules/Lang/docs/readme.md)
 * [readme.md](laravel/Modules/Activity/docs/readme.md)
 * [readme.md](laravel/Modules/Cms/docs/readme.md)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6b3610a (.)
-=======
->>>>>>> 376bc0e6 (fix conflitti sync remote repo aurmich)
-=======
 - [Roadmap](roadmap.md)
 
 ## Collegamenti Bidirezionali
@@ -175,16 +149,6 @@ Per il modulo Gdpr, si consiglia di utilizzare i seguenti server MCP:
 Per dettagli e best practice consulta la guida generale MCP nel workspace.
 
 *Ultimo aggiornamento: 2025-01-27*
->>>>>>> 9e4eece (.)
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 7f7ca59 (.)
-=======
->>>>>>> 3f0cea7 (.)
-=======
-=======
->>>>>>> 6b3610a (.)
 - [Roadmap](roadmap.md) 
 
 ## Collegamenti tra versioni di readme.md
@@ -193,14 +157,4 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 * [readme.md](laravel/Modules/Lang/docs/readme.md)
 * [readme.md](laravel/Modules/Activity/docs/readme.md)
 * [readme.md](laravel/Modules/Cms/docs/readme.md)
-<<<<<<< HEAD
->>>>>>> 3d38470 (.)
-=======
->>>>>>> c7de8d3daa (.)
->>>>>>> 6b3610a (.)
-=======
->>>>>>> 7f7ca59 (.)
-=======
->>>>>>> 3f0cea7 (.)
->>>>>>> 376bc0e6 (fix conflitti sync remote repo aurmich)
 
