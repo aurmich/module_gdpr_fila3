@@ -88,6 +88,17 @@ Gdpr/
 - [Architettura](architecture.md)
 - [Sviluppo](development.md)
 - [Pacchetti](packages.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 7f7ca59 (.)
+=======
+>>>>>>> 3f0cea7 (.)
+>>>>>>> 5ccb8a3 (.)
 - [Roadmap](roadmap.md) 
 
 ## Collegamenti tra versioni di readme.md
@@ -96,6 +107,12 @@ Gdpr/
 * [readme.md](laravel/Modules/Lang/docs/readme.md)
 * [readme.md](laravel/Modules/Activity/docs/readme.md)
 * [readme.md](laravel/Modules/Cms/docs/readme.md)
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 5ccb8a3 (.)
 - [Roadmap](roadmap.md)
 
 ## Collegamenti Bidirezionali
@@ -149,6 +166,15 @@ Per il modulo Gdpr, si consiglia di utilizzare i seguenti server MCP:
 Per dettagli e best practice consulta la guida generale MCP nel workspace.
 
 *Ultimo aggiornamento: 2025-01-27*
+<<<<<<< HEAD
+=======
+>>>>>>> 9e4eece (.)
+=======
+>>>>>>> 7f7ca59 (.)
+=======
+>>>>>>> 3f0cea7 (.)
+=======
+>>>>>>> 5ccb8a3 (.)
 - [Roadmap](roadmap.md) 
 
 ## Collegamenti tra versioni di readme.md
@@ -157,4 +183,8 @@ Per dettagli e best practice consulta la guida generale MCP nel workspace.
 * [readme.md](laravel/Modules/Lang/docs/readme.md)
 * [readme.md](laravel/Modules/Activity/docs/readme.md)
 * [readme.md](laravel/Modules/Cms/docs/readme.md)
+<<<<<<< HEAD
+=======
+>>>>>>> 3d38470 (.)
+>>>>>>> 5ccb8a3 (.)
 
