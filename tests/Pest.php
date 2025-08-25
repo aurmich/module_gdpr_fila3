@@ -17,9 +17,12 @@ use Modules\Gdpr\Tests\TestCase;
 
 pest()->extend(TestCase::class)
 <<<<<<< HEAD
+<<<<<<< HEAD
     ->use(Illuminate\Foundation\Testing\RefreshDatabase::class)
 =======
 >>>>>>> f0c1e02 (.)
+=======
+>>>>>>> d3f4a5d (.)
     ->in('Feature', 'Unit');
 
 /*
