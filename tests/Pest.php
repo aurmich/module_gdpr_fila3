@@ -17,6 +17,7 @@ use Modules\Gdpr\Tests\TestCase;
 
 pest()->extend(TestCase::class)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -26,6 +27,8 @@ pest()->extend(TestCase::class)
 =======
 >>>>>>> d3f4a5d (.)
 >>>>>>> da11c8a (.)
+=======
+>>>>>>> 675dfbc (.)
     ->in('Feature', 'Unit');
 
 /*
