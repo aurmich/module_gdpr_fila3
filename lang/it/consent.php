@@ -31,12 +31,18 @@ return array (
       'label' => 'reorderRecords',
     ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e9c33c (.)
     'resetFilters' => 
     array (
       'label' => 'resetFilters',
     ),
+<<<<<<< HEAD
 =======
 >>>>>>> 7b6074d (.)
+=======
+>>>>>>> 1e9c33c (.)
   ),
   'statuses' => 
   array (

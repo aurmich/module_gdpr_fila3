@@ -35,12 +35,18 @@ return array (
       'label' => 'resetFilters',
     ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e9c33c (.)
     'applyFilters' => 
     array (
       'label' => 'applyFilters',
     ),
+<<<<<<< HEAD
 =======
 >>>>>>> 7b6074d (.)
+=======
+>>>>>>> 1e9c33c (.)
   ),
   'event_types' => 
   array (

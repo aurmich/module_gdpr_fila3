@@ -83,9 +83,13 @@ use function Safe\json_encode;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperEvent
 =======
 >>>>>>> 7b6074d (.)
+=======
+ * @mixin IdeHelperEvent
+>>>>>>> 1e9c33c (.)
  * @mixin \Eloquent
  */
 class Event extends BaseModel

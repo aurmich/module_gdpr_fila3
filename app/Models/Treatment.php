@@ -106,9 +106,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperTreatment
 =======
 >>>>>>> 7b6074d (.)
+=======
+ * @mixin IdeHelperTreatment
+>>>>>>> 1e9c33c (.)
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel

@@ -70,9 +70,13 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Consent whereUserId($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Consent whereUserType($value)
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperConsent
 =======
 >>>>>>> 7b6074d (.)
+=======
+ * @mixin IdeHelperConsent
+>>>>>>> 1e9c33c (.)
  * @mixin \Eloquent
  */
 class Consent extends BaseModel

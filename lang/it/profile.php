@@ -31,12 +31,18 @@ return array (
       'label' => 'toggleColumns',
     ),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 1e9c33c (.)
     'reorderRecords' => 
     array (
       'label' => 'reorderRecords',
     ),
+<<<<<<< HEAD
 =======
 >>>>>>> 7b6074d (.)
+=======
+>>>>>>> 1e9c33c (.)
   ),
   'preferences' => 
   array (
