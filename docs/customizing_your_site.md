@@ -39,6 +39,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 # h1 Heading
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 ## h2 Heading
 
@@ -49,11 +50,21 @@ Here’s a quick preview of what some of the basic type styles will look like in
 ##### h5 Heading
 
 =======
+=======
+
+>>>>>>> f22a95a (.)
 ## h2 Heading
+
 ### h3 Heading
+
 #### h4 Heading
+
 ##### h5 Heading
+<<<<<<< HEAD
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 ###### h6 Heading
 
 The quick brown fox jumps over the lazy dog

@@ -69,17 +69,25 @@ Now that you’ve edited your configuration variables and know how to customize 
 
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
 # compile assets with Laravel Mix
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # options: dev, prod
 npm run dev
 ```

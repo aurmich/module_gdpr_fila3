@@ -12,9 +12,13 @@
 ### Comandi di Setup
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # Installazione via composer
 composer require modules/gdpr
 
@@ -129,9 +133,13 @@ return [
 ### Views
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # Pubblicazione views
 php artisan vendor:publish --tag=gdpr-views
 
@@ -150,9 +158,13 @@ resources/views/vendor/gdpr/
 ### Traduzioni
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # Pubblicazione traduzioni
 php artisan vendor:publish --tag=gdpr-translations
 
@@ -167,9 +179,13 @@ resources/lang/vendor/gdpr/
 ### Assets
 ```bash
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 # Pubblicazione assets
 php artisan vendor:publish --tag=gdpr-assets
 
@@ -214,9 +230,13 @@ public/vendor/gdpr/
 - [Bottlenecks](./bottlenecks.md)
 - [Implementazione](./implementation.md) 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
+=======
+
+>>>>>>> f22a95a (.)
 ## Collegamenti tra versioni di configuration.md
 * [configuration.md](../../../../docs/configuration.md)
 * [configuration.md](../../Xot/docs/configuration.md)
