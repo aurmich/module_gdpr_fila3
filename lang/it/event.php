@@ -34,10 +34,13 @@ return array (
     array (
       'label' => 'resetFilters',
     ),
+<<<<<<< HEAD
     'applyFilters' => 
     array (
       'label' => 'applyFilters',
     ),
+=======
+>>>>>>> 7b6074d (.)
   ),
   'event_types' => 
   array (

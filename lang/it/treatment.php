@@ -31,10 +31,13 @@ return array (
     array (
       'label' => 'reorderRecords',
     ),
+<<<<<<< HEAD
     'resetFilters' => 
     array (
       'label' => 'resetFilters',
     ),
+=======
+>>>>>>> 7b6074d (.)
   ),
   'legal_bases' => 
   array (

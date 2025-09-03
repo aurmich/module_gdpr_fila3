@@ -30,10 +30,13 @@ return array (
     array (
       'label' => 'toggleColumns',
     ),
+<<<<<<< HEAD
     'reorderRecords' => 
     array (
       'label' => 'reorderRecords',
     ),
+=======
+>>>>>>> 7b6074d (.)
   ),
   'preferences' => 
   array (

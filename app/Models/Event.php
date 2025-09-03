@@ -82,7 +82,10 @@ use function Safe\json_encode;
  * @method static \Illuminate\Database\Eloquent\Builder|Event   whereUpdatedBy($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
+<<<<<<< HEAD
  * @mixin IdeHelperEvent
+=======
+>>>>>>> 7b6074d (.)
  * @mixin \Eloquent
  */
 class Event extends BaseModel
