@@ -91,9 +91,9 @@ Gdpr/
 - [Roadmap](roadmap.md) 
 
 ## Collegamenti tra versioni di readme.md
-* [readme.md](laravel/Modules/Gdpr/docs/readme.md)
-* [readme.md](laravel/Modules/UI/docs/readme.md)
-* [readme.md](laravel/Modules/Lang/docs/readme.md)
-* [readme.md](laravel/Modules/Activity/docs/readme.md)
-* [readme.md](laravel/Modules/Cms/docs/readme.md)
+* [readme.md](laravel/Modules/Gdpr/project_docs/readme.md)
+* [readme.md](laravel/Modules/UI/project_docs/readme.md)
+* [readme.md](laravel/Modules/Lang/project_docs/readme.md)
+* [readme.md](laravel/Modules/Activity/project_docs/readme.md)
+* [readme.md](laravel/Modules/Cms/project_docs/readme.md)
 
