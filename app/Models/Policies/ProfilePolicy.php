@@ -5,63 +5,63 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Models\Policies;
 
 use Modules\Gdpr\Models\Profile;
-use Modules\Xot\Contracts\ProfileContract;
+use Modules\Xot\Contracts\UserContract;
 
 class ProfilePolicy extends GdprBasePolicy
 {
     /**
      * Determine whether the user can view any models.
      */
-    public function viewAny(ProfileContract $user): bool
+    public function viewAny(UserContract $user): bool
     {
-        return $user->hasPermissionTo('profile.viewAny'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.viewAny');
     }
 
     /**
      * Determine whether the user can view the model.
      */
-    public function view(ProfileContract $user, Profile $profile): bool
+    public function view(UserContract $user, Profile $profile): bool
     {
-        return $user->hasPermissionTo('profile.view'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.view');
     }
 
     /**
      * Determine whether the user can create models.
      */
-    public function create(ProfileContract $user): bool
+    public function create(UserContract $user): bool
     {
-        return $user->hasPermissionTo('profile.create'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.create');
     }
 
     /**
      * Determine whether the user can update the model.
      */
-    public function update(ProfileContract $user, Profile $profile): bool
+    public function update(UserContract $user, Profile $profile): bool
     {
-        return $user->hasPermissionTo('profile.update'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.update');
     }
 
     /**
      * Determine whether the user can delete the model.
      */
-    public function delete(ProfileContract $user, Profile $profile): bool
+    public function delete(UserContract $user, Profile $profile): bool
     {
-        return $user->hasPermissionTo('profile.delete'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.delete');
     }
 
     /**
      * Determine whether the user can restore the model.
      */
-    public function restore(ProfileContract $user, Profile $profile): bool
+    public function restore(UserContract $user, Profile $profile): bool
     {
-        return $user->hasPermissionTo('profile.restore'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.restore');
     }
 
     /**
      * Determine whether the user can permanently delete the model.
      */
-    public function forceDelete(ProfileContract $user, Profile $profile): bool
+    public function forceDelete(UserContract $user, Profile $profile): bool
     {
-        return $user->hasPermissionTo('profile.forceDelete'); /** @phpstan-ignore method.nonObject */
+        return $user->hasPermissionTo('profile.forceDelete');
     }
 }

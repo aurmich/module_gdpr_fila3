@@ -1,7 +1,3 @@
-# cookie_consent
-
-<!-- Contenuto migrato da _docs/cookie_consent.txt -->
-
 https://github.com/whitecube/laravel-cookie-consent
 
 https://devpeel.com/how-to-add-gdpr-cookie-consent-in-laravel/#google_vignette
