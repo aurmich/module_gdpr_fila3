@@ -7,12 +7,15 @@ namespace Modules\Gdpr\Providers;
 use Illuminate\Routing\Router;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 use Modules\Gdpr\Datas\GdprData;
 >>>>>>> 6a853ea (.)
 =======
 use Modules\Gdpr\Datas\GdprData;
 >>>>>>> 6d1fb23 (.)
+=======
+>>>>>>> e55f1ad (.)
 use Modules\Xot\Providers\XotBaseServiceProvider;
 use Modules\Xot\Actions\Module\GetModulePathByGeneratorAction;
 
@@ -37,6 +40,7 @@ class GdprServiceProvider extends XotBaseServiceProvider
     {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         $router->pushMiddlewareToGroup('web', \Statikbe\CookieConsent\CookieConsentMiddleware::class);
 =======
 =======
@@ -49,6 +53,9 @@ class GdprServiceProvider extends XotBaseServiceProvider
 >>>>>>> 6a853ea (.)
 =======
 >>>>>>> 6d1fb23 (.)
+=======
+        $router->pushMiddlewareToGroup('web', \Statikbe\CookieConsent\CookieConsentMiddleware::class);
+>>>>>>> e55f1ad (.)
     }
 
     public function register(): void

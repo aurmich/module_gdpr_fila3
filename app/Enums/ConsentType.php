@@ -7,6 +7,7 @@ namespace Modules\Gdpr\Enums;
 use Illuminate\Support\Collection;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6d1fb23 (.)
@@ -20,6 +21,8 @@ use Modules\Xot\Filament\Traits\TransTrait;
 >>>>>>> 6a853ea (.)
 =======
 >>>>>>> 6d1fb23 (.)
+=======
+>>>>>>> e55f1ad (.)
 
 /**
  * Enum ConsentType
@@ -27,6 +30,7 @@ use Modules\Xot\Filament\Traits\TransTrait;
  * Defines all available consent types in the application.
  * Each consent type must have a corresponding translation key in the language files.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 enum ConsentType: string
@@ -43,6 +47,11 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 6a853ea (.)
 =======
 >>>>>>> 6d1fb23 (.)
+=======
+enum ConsentType: string
+{
+
+>>>>>>> e55f1ad (.)
     // Marketing communications
     case MARKETING_EMAIL = 'marketing_email';
     case MARKETING_SMS = 'marketing_sms';
@@ -69,12 +78,16 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> e55f1ad (.)
     /**
      * Get the human-readable name of the consent type.
      * 
      * @return string
      */
     public function label(): string
+<<<<<<< HEAD
     {
         return match($this) {
             self::MARKETING_EMAIL => __('gdpr::consent.types.marketing_email'),
@@ -121,12 +134,35 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
 =======
 >>>>>>> 6d1fb23 (.)
     public function getLabel(): string
+=======
+>>>>>>> e55f1ad (.)
     {
-        return $this->transClass(self::class,$this->value.'.label');
+        return match($this) {
+            self::MARKETING_EMAIL => __('gdpr::consent.types.marketing_email'),
+            self::MARKETING_SMS => __('gdpr::consent.types.marketing_sms'),
+            self::MARKETING_PHONE => __('gdpr::consent.types.marketing_phone'),
+            self::PRIVACY_POLICY => __('gdpr::consent.types.privacy_policy'),
+            self::COOKIES => __('gdpr::consent.types.cookies'),
+            self::ANALYTICS => __('gdpr::consent.types.analytics'),
+            self::PERSONALIZATION => __('gdpr::consent.types.personalization'),
+            self::THIRD_PARTY_SHARING => __('gdpr::consent.types.third_party_sharing'),
+            self::DATA_TRANSFER => __('gdpr::consent.types.data_transfer'),
+            self::TERMS_AND_CONDITIONS => __('gdpr::consent.types.terms_and_conditions'),
+            self::AGE_VERIFICATION => __('gdpr::consent.types.age_verification'),
+            self::RESEARCH => __('gdpr::consent.types.research'),
+            self::PROFILING => __('gdpr::consent.types.profiling'),
+            self::AUTOMATED_DECISION_MAKING => __('gdpr::consent.types.automated_decision_making'),
+        };
     }
 
-    public function getColor(): string
+    /**
+     * Get the description of the consent type.
+     * 
+     * @return string
+     */
+    public function description(): string
     {
+<<<<<<< HEAD
         return $this->transClass(self::class,$this->value.'.color');
 
     }
@@ -143,6 +179,24 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
 >>>>>>> 6a853ea (.)
 =======
 >>>>>>> 6d1fb23 (.)
+=======
+        return match($this) {
+            self::MARKETING_EMAIL => __('gdpr::consent.descriptions.marketing_email'),
+            self::MARKETING_SMS => __('gdpr::consent.descriptions.marketing_sms'),
+            self::MARKETING_PHONE => __('gdpr::consent.descriptions.marketing_phone'),
+            self::PRIVACY_POLICY => __('gdpr::consent.descriptions.privacy_policy'),
+            self::COOKIES => __('gdpr::consent.descriptions.cookies'),
+            self::ANALYTICS => __('gdpr::consent.descriptions.analytics'),
+            self::PERSONALIZATION => __('gdpr::consent.descriptions.personalization'),
+            self::THIRD_PARTY_SHARING => __('gdpr::consent.descriptions.third_party_sharing'),
+            self::DATA_TRANSFER => __('gdpr::consent.descriptions.data_transfer'),
+            self::TERMS_AND_CONDITIONS => __('gdpr::consent.descriptions.terms_and_conditions'),
+            self::AGE_VERIFICATION => __('gdpr::consent.descriptions.age_verification'),
+            self::RESEARCH => __('gdpr::consent.descriptions.research'),
+            self::PROFILING => __('gdpr::consent.descriptions.profiling'),
+            self::AUTOMATED_DECISION_MAKING => __('gdpr::consent.descriptions.automated_decision_making'),
+        };
+>>>>>>> e55f1ad (.)
     }
 
     /**
