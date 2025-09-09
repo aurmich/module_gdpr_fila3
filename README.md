@@ -6,12 +6,16 @@
 [![License](https://img.shields.io/github/license/laraxot/module_gdpr_fila3)](LICENSE)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Module Gdpr
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laraxot/module_gdpr_fila3.svg?style=flat-square)](https://packagist.org/packages/laraxot/module_gdpr_fila3)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/laraxot/module_gdpr_fila3/run-tests?label=tests)](https://github.com/laraxot/module_gdpr_fila3/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -123,12 +127,16 @@ This package is open-sourced under the [MIT license](LICENSE).
 Stay compliant and secure user trust with **Module GDPR Fila3**! 💥
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 ## Verify the Module is Active
 ```bash
 php artisan module:list
@@ -143,8 +151,11 @@ php artisan module:enable Gdpr
 php artisan module:migrate Gdpr
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ```
 >>>>>>> 7b6074d (.)
 =======
 >>>>>>> f22a95a (.)
+=======
+>>>>>>> 6a853ea (.)

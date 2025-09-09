@@ -7,6 +7,7 @@ namespace Modules\Gdpr\Filament\Pages;
 use Filament\Pages\Dashboard as BaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 class Dashboard extends XotBaseDashboard
@@ -19,6 +20,11 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 class Dashboard extends XotBaseDashboard
 >>>>>>> 1e9c33c (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+
+class Dashboard extends XotBaseDashboard
+>>>>>>> 6a853ea (.)
 {
     protected static ?string $navigationIcon = 'heroicon-o-home';
 

@@ -5,6 +5,15 @@ declare(strict_types=1);
 namespace Modules\Gdpr\Enums;
 
 use Illuminate\Support\Collection;
+<<<<<<< HEAD
+=======
+use Illuminate\Support\Arr;
+use Filament\Support\Contracts\HasIcon;
+use Filament\Forms\Components\TextInput;
+use Filament\Support\Contracts\HasColor;
+use Filament\Support\Contracts\HasLabel;
+use Modules\Xot\Filament\Traits\TransTrait;
+>>>>>>> 6a853ea (.)
 
 /**
  * Enum ConsentType
@@ -12,9 +21,16 @@ use Illuminate\Support\Collection;
  * Defines all available consent types in the application.
  * Each consent type must have a corresponding translation key in the language files.
  */
+<<<<<<< HEAD
 enum ConsentType: string
 {
 
+=======
+enum ConsentType: string implements HasLabel, HasIcon, HasColor
+{
+
+    use TransTrait;
+>>>>>>> 6a853ea (.)
     // Marketing communications
     case MARKETING_EMAIL = 'marketing_email';
     case MARKETING_SMS = 'marketing_sms';
@@ -39,6 +55,7 @@ enum ConsentType: string
     case PROFILING = 'profiling';
     case AUTOMATED_DECISION_MAKING = 'automated_decision_making';
 
+<<<<<<< HEAD
     /**
      * Get the human-readable name of the consent type.
      * 
@@ -87,6 +104,27 @@ enum ConsentType: string
             self::PROFILING => __('gdpr::consent.descriptions.profiling'),
             self::AUTOMATED_DECISION_MAKING => __('gdpr::consent.descriptions.automated_decision_making'),
         };
+=======
+    public function getLabel(): string
+    {
+        return $this->transClass(self::class,$this->value.'.label');
+    }
+
+    public function getColor(): string
+    {
+        return $this->transClass(self::class,$this->value.'.color');
+
+    }
+
+    public function getIcon(): string
+    {
+        return $this->transClass(self::class,$this->value.'.icon');
+    }
+
+    public function getDescription(): string
+    {
+        return $this->transClass(self::class,$this->value.'.description');
+>>>>>>> 6a853ea (.)
     }
 
     /**
@@ -129,11 +167,19 @@ enum ConsentType: string
         );
     }
 
+<<<<<<< HEAD
     /**
      * Get consent types grouped by category.
      * 
      * @return array<string, array<string, string>>
      */
+=======
+    /*
+     * Get consent types grouped by category.
+     * 
+     * @return array<string, array<string, string>>
+     
+>>>>>>> 6a853ea (.)
     public static function groupedByCategory(): array
     {
         return [
@@ -163,6 +209,10 @@ enum ConsentType: string
             ],
         ];
     }
+<<<<<<< HEAD
 
+=======
+    */
+>>>>>>> 6a853ea (.)
     
 }

@@ -143,12 +143,16 @@ use Modules\User\Models\BaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile wherePostalCode($value)
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperProfile
 =======
 >>>>>>> 7b6074d (.)
 =======
  * @mixin IdeHelperProfile
 >>>>>>> 1e9c33c (.)
+=======
+ * @mixin IdeHelperProfile
+>>>>>>> 6a853ea (.)
  * @mixin \Eloquent
  */
 class Profile extends BaseProfile

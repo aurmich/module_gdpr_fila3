@@ -13,12 +13,16 @@
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Installazione via composer
 composer require modules/gdpr
 
@@ -134,12 +138,16 @@ return [
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Pubblicazione views
 php artisan vendor:publish --tag=gdpr-views
 
@@ -159,12 +167,16 @@ resources/views/vendor/gdpr/
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Pubblicazione traduzioni
 php artisan vendor:publish --tag=gdpr-translations
 
@@ -180,12 +192,16 @@ resources/lang/vendor/gdpr/
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Pubblicazione assets
 php artisan vendor:publish --tag=gdpr-assets
 
@@ -231,12 +247,16 @@ public/vendor/gdpr/
 - [Implementazione](./implementation.md) 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 ## Collegamenti tra versioni di configuration.md
 * [configuration.md](../../../../docs/configuration.md)
 * [configuration.md](../../Xot/docs/configuration.md)

@@ -129,12 +129,16 @@ GDPR_DEBUG=true
 ```bash
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 # Problema: Permessi insufficienti
 chmod 644 storage/exports
 
@@ -214,12 +218,16 @@ class GdprMetrics
 - [Testing](./testing.md) 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
 =======
 
 >>>>>>> f22a95a (.)
+=======
+
+>>>>>>> 6a853ea (.)
 ## Collegamenti tra versioni di troubleshooting.md
 * [troubleshooting.md](../../Xot/docs/phpstan/troubleshooting.md)
 * [troubleshooting.md](../../Xot/docs/troubleshooting.md)

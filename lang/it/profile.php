@@ -32,17 +32,23 @@ return array (
     ),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1e9c33c (.)
+=======
+>>>>>>> 6a853ea (.)
     'reorderRecords' => 
     array (
       'label' => 'reorderRecords',
     ),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 7b6074d (.)
 =======
 >>>>>>> 1e9c33c (.)
+=======
+>>>>>>> 6a853ea (.)
   ),
   'preferences' => 
   array (
