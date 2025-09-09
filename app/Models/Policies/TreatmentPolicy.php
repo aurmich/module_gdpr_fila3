@@ -64,8 +64,4 @@ class TreatmentPolicy extends GdprBasePolicy
     {
         return $user->hasPermissionTo('treatment.forceDelete');
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 618564f (.)

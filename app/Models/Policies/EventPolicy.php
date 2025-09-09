@@ -64,8 +64,4 @@ class EventPolicy extends GdprBasePolicy
     {
         return $user->hasPermissionTo('event.forceDelete');
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 618564f (.)

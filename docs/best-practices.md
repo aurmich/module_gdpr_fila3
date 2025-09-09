@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Best Practices
-=======
 # GDPR Best Practices
 
 ## Table of Contents
@@ -109,4 +106,3 @@ public function test_user_can_withdraw_consent()
 - Regular policy reviews
 - Stay updated with regulations
 - Solicit user feedback
->>>>>>> 618564f (.)

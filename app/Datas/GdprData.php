@@ -4,13 +4,6 @@ declare(strict_types=1);
 
 namespace Modules\Gdpr\Datas;
 
-<<<<<<< HEAD
-use Filament\Support\Colors\Color;
-use Livewire\Wireable;
-use Modules\Tenant\Services\TenantService;
-use Spatie\LaravelData\Concerns\WireableData;
-use Spatie\LaravelData\Data;
-=======
 use Livewire\Wireable;
 use Illuminate\Support\Arr;
 use Spatie\LaravelData\Data;
@@ -23,7 +16,6 @@ use Spatie\LaravelData\Concerns\WireableData;
 use Spatie\LaravelData\Attributes\WithTransformer;
 use Modules\Xot\Datas\Transformers\AssetTransformer;
 use function Safe\file_get_contents;
->>>>>>> 618564f (.)
 
 /**
  * Class MetatagData
@@ -59,23 +51,14 @@ use function Safe\file_get_contents;
  * @property string $color_banner
  * @property string $favicon
  * @property array<string, array{key?: string, color: string, hex?: string}> $colors
-<<<<<<< HEAD
- *
-=======
  * 
->>>>>>> 618564f (.)
  * @method string getBrandLogoBase64() Get the brand logo as base64 data URI for inline embedding
  */
 class GdprData extends Data implements Wireable
 {
     use WireableData;
 
-<<<<<<< HEAD
-    public bool $cookie_banner_enabled = true;
-
-=======
     public bool $cookie_banner_enabled=true;
->>>>>>> 618564f (.)
     /**
      * Singleton instance.
      */
@@ -83,11 +66,8 @@ class GdprData extends Data implements Wireable
 
     /**
      * Creates or returns the singleton instance.
-<<<<<<< HEAD
-=======
      *
      * @return self
->>>>>>> 618564f (.)
      */
     public static function make(): self
     {
@@ -99,9 +79,6 @@ class GdprData extends Data implements Wireable
 
         return self::$instance;
     }
-<<<<<<< HEAD
-=======
 
     
->>>>>>> 618564f (.)
 }

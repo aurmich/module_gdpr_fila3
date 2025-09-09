@@ -64,8 +64,4 @@ class ProfilePolicy extends GdprBasePolicy
     {
         return $user->hasPermissionTo('profile.forceDelete');
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 618564f (.)

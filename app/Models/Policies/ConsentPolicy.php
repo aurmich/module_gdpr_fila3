@@ -64,8 +64,4 @@ class ConsentPolicy extends GdprBasePolicy
     {
         return $user->hasPermissionTo('consent.forceDelete');
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 618564f (.)
