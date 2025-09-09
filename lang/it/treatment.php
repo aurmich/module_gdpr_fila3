@@ -31,31 +31,10 @@ return array (
     array (
       'label' => 'reorderRecords',
     ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
     'resetFilters' => 
     array (
       'label' => 'resetFilters',
     ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7b6074d (.)
-=======
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
   ),
   'legal_bases' => 
   array (

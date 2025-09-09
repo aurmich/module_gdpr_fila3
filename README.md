@@ -4,22 +4,7 @@
 [![Build Status](https://img.shields.io/travis/laraxot/module_gdpr_fila3/master)](https://travis-ci.org/laraxot/module_gdpr_fila3)
 [![Code Coverage](https://img.shields.io/codecov/c/github/laraxot/module_gdpr_fila3)](https://codecov.io/gh/laraxot/module_gdpr_fila3)
 [![License](https://img.shields.io/github/license/laraxot/module_gdpr_fila3)](LICENSE)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b6074d (.)
-=======
-
->>>>>>> f22a95a (.)
-=======
-
->>>>>>> 6a853ea (.)
-=======
-
->>>>>>> 6d1fb23 (.)
 # Module Gdpr
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laraxot/module_gdpr_fila3.svg?style=flat-square)](https://packagist.org/packages/laraxot/module_gdpr_fila3)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/laraxot/module_gdpr_fila3/run-tests?label=tests)](https://github.com/laraxot/module_gdpr_fila3/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -129,22 +114,7 @@ This package is open-sourced under the [MIT license](LICENSE).
 ---
 
 Stay compliant and secure user trust with **Module GDPR Fila3**! 💥
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 7b6074d (.)
-=======
-
->>>>>>> f22a95a (.)
-=======
-
->>>>>>> 6a853ea (.)
-=======
-
->>>>>>> 6d1fb23 (.)
 ## Verify the Module is Active
 ```bash
 php artisan module:list
@@ -157,16 +127,3 @@ php artisan module:enable Gdpr
 ## Run the Migrations
 ```bash
 php artisan module:migrate Gdpr
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-```
->>>>>>> 7b6074d (.)
-=======
->>>>>>> f22a95a (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)

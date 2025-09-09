@@ -30,31 +30,10 @@ return array (
     array (
       'label' => 'toggleColumns',
     ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
     'reorderRecords' => 
     array (
       'label' => 'reorderRecords',
     ),
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 7b6074d (.)
-=======
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
   ),
   'preferences' => 
   array (

@@ -141,22 +141,11 @@ use Modules\User\Models\BaseProfile;
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile whereCountry($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile wherePhone($value)
  * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile wherePostalCode($value)
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @mixin IdeHelperProfile
-=======
->>>>>>> 7b6074d (.)
-=======
- * @mixin IdeHelperProfile
->>>>>>> 1e9c33c (.)
-=======
- * @mixin IdeHelperProfile
->>>>>>> 6a853ea (.)
-=======
- * @mixin IdeHelperProfile
->>>>>>> 6d1fb23 (.)
+ * @property string|null $fiscal_code
+ * @property string|null $notes
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile whereFiscalCode($value)
+ * @method static \Illuminate\Database\Eloquent\Builder<static>|Profile whereNotes($value)
  * @mixin \Eloquent
  */
 class Profile extends BaseProfile

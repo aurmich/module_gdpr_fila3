@@ -105,22 +105,7 @@ use Modules\Xot\Contracts\ProfileContract;
  * @method static \Illuminate\Database\Eloquent\Builder|Treatment   whereWeight($value)
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
  * @mixin IdeHelperTreatment
-=======
->>>>>>> 7b6074d (.)
-=======
- * @mixin IdeHelperTreatment
->>>>>>> 1e9c33c (.)
-=======
- * @mixin IdeHelperTreatment
->>>>>>> 6a853ea (.)
-=======
- * @mixin IdeHelperTreatment
->>>>>>> 6d1fb23 (.)
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel

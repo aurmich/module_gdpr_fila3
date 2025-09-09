@@ -1,26 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
 # Dependencies
 vendor/
 node_modules/
 package-lock.json
 
 # Build and compiled files
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
 /build
 docs/cache/
 cache/
@@ -47,44 +30,3 @@ docs/phpstan/
 
 # Other
 -e
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-.git-blame-ignore-revs
-/vendor
-=======
->>>>>>> 1e9c33c (.)
-/build
-docs/cache/
-cache/
-
-# Cache and temporary files
-*.cache
-*.lock
-*.phar
-*.log
-.php-cs-fixer.cache
-
-# Git related
-.git-rewrite/
-.git-blame-ignore-revs
-
-# Backup files
-*.old
-*.old1
-*.backup
-*.bak
-
-# PHPStan documentation
-docs/phpstan/
-<<<<<<< HEAD
->>>>>>> 7b6074d (.)
-=======
-
-# Other
--e
->>>>>>> 1e9c33c (.)
-=======
->>>>>>> 6a853ea (.)
-=======
->>>>>>> 6d1fb23 (.)
