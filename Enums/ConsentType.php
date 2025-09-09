@@ -6,6 +6,7 @@ namespace Modules\Gdpr\Enums;
 
 use Illuminate\Support\Collection;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Core\Traits\EnumTrait;
 =======
 use Modules\Xot\Filament\Traits\TransTrait;
@@ -17,6 +18,9 @@ use Filament\Support\Contracts\HasColor;
 use Filament\Support\Contracts\HasLabel;
 
 >>>>>>> 6a853ea (.)
+=======
+use Modules\Core\Traits\EnumTrait;
+>>>>>>> 6d1fb23 (.)
 
 /**
  * Enum ConsentType
@@ -24,6 +28,7 @@ use Filament\Support\Contracts\HasLabel;
  * Defines all available consent types in the application.
  * Each consent type must have a corresponding translation key in the language files.
  */
+<<<<<<< HEAD
 <<<<<<< HEAD
 enum ConsentType: string
 {
@@ -34,6 +39,11 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
     //use EnumTrait;
     use TransTrait;
 >>>>>>> 6a853ea (.)
+=======
+enum ConsentType: string
+{
+    use EnumTrait;
+>>>>>>> 6d1fb23 (.)
 
     // Marketing communications
     case MARKETING_EMAIL = 'marketing_email';
@@ -60,6 +70,9 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
     case AUTOMATED_DECISION_MAKING = 'automated_decision_making';
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d1fb23 (.)
     /**
      * Get the human-readable name of the consent type.
      * 
@@ -108,6 +121,7 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
             self::PROFILING => __('gdpr::consent.descriptions.profiling'),
             self::AUTOMATED_DECISION_MAKING => __('gdpr::consent.descriptions.automated_decision_making'),
         };
+<<<<<<< HEAD
 =======
     public function getLabel(): string
     {
@@ -129,6 +143,8 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
     {
         return $this->transClass(self::class,$this->value.'.description');
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
     }
 
     /**
@@ -172,11 +188,15 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d1fb23 (.)
     /**
      * Get consent types grouped by category.
      * 
      * @return array<string, array<string, string>>
      */
+<<<<<<< HEAD
 =======
     /*
      * Get consent types grouped by category.
@@ -184,6 +204,8 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
      * @return array<string, array<string, string>>
      
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
     public static function groupedByCategory(): array
     {
         return [
@@ -214,12 +236,16 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
         ];
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6d1fb23 (.)
 
     /**
      * Get consent types as a flattened array for forms.
      * 
      * @return array<string, string>
      */
+<<<<<<< HEAD
 =======
     */
     /*
@@ -228,6 +254,8 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
      * @return array<string, string>
      
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
     public static function forFormSelect(): array
     {
         $result = [];
@@ -239,7 +267,10 @@ enum ConsentType: string implements HasLabel, HasIcon, HasColor
         return $result;
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
         */
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
 }

@@ -34,14 +34,18 @@ return array (
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1e9c33c (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
     'resetFilters' => 
     array (
       'label' => 'resetFilters',
     ),
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -50,6 +54,8 @@ return array (
 >>>>>>> 1e9c33c (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
   ),
   'legal_bases' => 
   array (

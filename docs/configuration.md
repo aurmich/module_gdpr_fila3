@@ -14,6 +14,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -23,6 +24,9 @@
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Installazione via composer
 composer require modules/gdpr
 
@@ -139,6 +143,7 @@ return [
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -148,6 +153,9 @@ return [
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Pubblicazione views
 php artisan vendor:publish --tag=gdpr-views
 
@@ -168,6 +176,7 @@ resources/views/vendor/gdpr/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -177,6 +186,9 @@ resources/views/vendor/gdpr/
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Pubblicazione traduzioni
 php artisan vendor:publish --tag=gdpr-translations
 
@@ -193,6 +205,7 @@ resources/lang/vendor/gdpr/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -202,6 +215,9 @@ resources/lang/vendor/gdpr/
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Pubblicazione assets
 php artisan vendor:publish --tag=gdpr-assets
 
@@ -248,6 +264,7 @@ public/vendor/gdpr/
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -257,6 +274,9 @@ public/vendor/gdpr/
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 ## Collegamenti tra versioni di configuration.md
 * [configuration.md](../../../../docs/configuration.md)
 * [configuration.md](../../Xot/docs/configuration.md)

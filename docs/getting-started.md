@@ -71,6 +71,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -80,6 +81,9 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # build static files with Jigsaw
 ./vendor/bin/jigsaw build
 
@@ -87,6 +91,7 @@ Now that you’ve edited your configuration variables and know how to customize 
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -96,6 +101,9 @@ Now that you’ve edited your configuration variables and know how to customize 
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # options: dev, prod
 npm run dev
 ```

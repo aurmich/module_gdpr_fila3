@@ -256,6 +256,7 @@ class ConsentRequest extends FormRequest
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -265,6 +266,9 @@ class ConsentRequest extends FormRequest
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Lista consensi
 curl -X GET \
   https://api.<nome progetto>.com/gdpr/consents \
@@ -309,6 +313,7 @@ $consent = $response->json()['data'];
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -318,6 +323,9 @@ $consent = $response->json()['data'];
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 ## Collegamenti tra versioni di api.md
 * [api.md](../../Chart/docs/advanced/api.md)
 * [api.md](../../Dental/docs/api.md)

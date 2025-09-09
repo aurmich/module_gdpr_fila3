@@ -1,10 +1,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1e9c33c (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
 # Dependencies
 vendor/
 node_modules/
@@ -13,8 +16,11 @@ package-lock.json
 # Build and compiled files
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
 /build
 docs/cache/
 cache/
@@ -41,6 +47,7 @@ docs/phpstan/
 
 # Other
 -e
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 .git-blame-ignore-revs
@@ -79,3 +86,5 @@ docs/phpstan/
 >>>>>>> 1e9c33c (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)

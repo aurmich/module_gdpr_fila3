@@ -7,6 +7,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -16,6 +17,9 @@
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Module Gdpr
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/laraxot/module_gdpr_fila3.svg?style=flat-square)](https://packagist.org/packages/laraxot/module_gdpr_fila3)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/laraxot/module_gdpr_fila3/run-tests?label=tests)](https://github.com/laraxot/module_gdpr_fila3/actions?query=workflow%3Arun-tests+branch%3Amain)
@@ -128,6 +132,7 @@ Stay compliant and secure user trust with **Module GDPR Fila3**! 💥
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -137,6 +142,9 @@ Stay compliant and secure user trust with **Module GDPR Fila3**! 💥
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 ## Verify the Module is Active
 ```bash
 php artisan module:list
@@ -152,6 +160,7 @@ php artisan module:migrate Gdpr
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 ```
 >>>>>>> 7b6074d (.)
@@ -159,3 +168,5 @@ php artisan module:migrate Gdpr
 >>>>>>> f22a95a (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)

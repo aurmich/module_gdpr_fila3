@@ -85,6 +85,7 @@ use function Safe\json_encode;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperEvent
 =======
 >>>>>>> 7b6074d (.)
@@ -94,6 +95,9 @@ use function Safe\json_encode;
 =======
  * @mixin IdeHelperEvent
 >>>>>>> 6a853ea (.)
+=======
+ * @mixin IdeHelperEvent
+>>>>>>> 6d1fb23 (.)
  * @mixin \Eloquent
  */
 class Event extends BaseModel

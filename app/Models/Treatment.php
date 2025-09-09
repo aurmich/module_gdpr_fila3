@@ -108,6 +108,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperTreatment
 =======
 >>>>>>> 7b6074d (.)
@@ -117,6 +118,9 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperTreatment
 >>>>>>> 6a853ea (.)
+=======
+ * @mixin IdeHelperTreatment
+>>>>>>> 6d1fb23 (.)
  * @mixin \Eloquent
  */
 class Treatment extends BaseModel

@@ -41,8 +41,11 @@ Here’s a quick preview of what some of the basic type styles will look like in
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
 
 ## h2 Heading
 
@@ -52,6 +55,7 @@ Here’s a quick preview of what some of the basic type styles will look like in
 
 ##### h5 Heading
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -71,6 +75,8 @@ Here’s a quick preview of what some of the basic type styles will look like in
 >>>>>>> f22a95a (.)
 =======
 >>>>>>> 6a853ea (.)
+=======
+>>>>>>> 6d1fb23 (.)
 ###### h6 Heading
 
 The quick brown fox jumps over the lazy dog

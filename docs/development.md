@@ -180,6 +180,7 @@ trait HasConsent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -189,6 +190,9 @@ trait HasConsent
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # Formato messaggi commit
 feat(gdpr): aggiunta gestione consensi cookie
 fix(gdpr): correzione validazione consensi
@@ -208,6 +212,7 @@ docs(gdpr): aggiornamento documentazione
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -217,6 +222,9 @@ docs(gdpr): aggiornamento documentazione
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # phpstan.neon.dist
 parameters:
     level: 5
@@ -278,6 +286,7 @@ public function storeConsent(User $user, array $data): Consent
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 7b6074d (.)
@@ -287,6 +296,9 @@ public function storeConsent(User $user, array $data): Consent
 =======
 
 >>>>>>> 6a853ea (.)
+=======
+
+>>>>>>> 6d1fb23 (.)
 # .github/workflows/gdpr.yml
 name: Gdpr CI
 

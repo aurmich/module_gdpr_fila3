@@ -144,6 +144,7 @@ use Modules\User\Models\BaseProfile;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperProfile
 =======
 >>>>>>> 7b6074d (.)
@@ -153,6 +154,9 @@ use Modules\User\Models\BaseProfile;
 =======
  * @mixin IdeHelperProfile
 >>>>>>> 6a853ea (.)
+=======
+ * @mixin IdeHelperProfile
+>>>>>>> 6d1fb23 (.)
  * @mixin \Eloquent
  */
 class Profile extends BaseProfile

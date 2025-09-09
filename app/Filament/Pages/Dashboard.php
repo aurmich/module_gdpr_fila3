@@ -8,6 +8,7 @@ use Filament\Pages\Dashboard as BaseDashboard;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 class Dashboard extends XotBaseDashboard
@@ -25,6 +26,11 @@ use Modules\Xot\Filament\Pages\XotBaseDashboard;
 
 class Dashboard extends XotBaseDashboard
 >>>>>>> 6a853ea (.)
+=======
+use Modules\Xot\Filament\Pages\XotBaseDashboard;
+
+class Dashboard extends XotBaseDashboard
+>>>>>>> 6d1fb23 (.)
 {
     protected static ?string $navigationIcon = 'heroicon-o-home';
 

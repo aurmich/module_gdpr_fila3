@@ -72,6 +72,7 @@ use Modules\Xot\Contracts\ProfileContract;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
  * @mixin IdeHelperConsent
 =======
 >>>>>>> 7b6074d (.)
@@ -81,6 +82,9 @@ use Modules\Xot\Contracts\ProfileContract;
 =======
  * @mixin IdeHelperConsent
 >>>>>>> 6a853ea (.)
+=======
+ * @mixin IdeHelperConsent
+>>>>>>> 6d1fb23 (.)
  * @mixin \Eloquent
  */
 class Consent extends BaseModel

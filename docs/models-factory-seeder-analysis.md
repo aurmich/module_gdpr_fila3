@@ -35,6 +35,7 @@
 - **Business Logic**: Tracciamento consensi utenti per GDPR
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - **Integrazione**: HasGdpr trait, SaluteOra models (User, Patient, Doctor, Admin)
 =======
 - **Integrazione**: HasGdpr trait, project-specific models (User, Patient, Doctor, Admin)
@@ -42,6 +43,9 @@
 =======
 - **Integrazione**: HasGdpr trait, project-specific models (User, Patient, Doctor, Admin)
 >>>>>>> 6a853ea (.)
+=======
+- **Integrazione**: HasGdpr trait, project-specific models (User, Patient, Doctor, Admin)
+>>>>>>> 6d1fb23 (.)
 - **Necessità**: CRITICA per compliance GDPR
 - **Relazioni**: BelongsTo Treatment
 
@@ -69,6 +73,7 @@
 ### HasGdpr Trait
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Utilizzato in **SaluteOra** models:
 =======
 - Utilizzato in **project-specific** models:
@@ -76,6 +81,9 @@
 =======
 - Utilizzato in **project-specific** models:
 >>>>>>> 6a853ea (.)
+=======
+- Utilizzato in **project-specific** models:
+>>>>>>> 6d1fb23 (.)
   - User.php
   - Patient.php  
   - Doctor.php
@@ -116,6 +124,7 @@ Il modulo GDPR è completamente configurato con tutte le factory necessarie. Tut
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ## Utilizzo nel Sistema SaluteOra
 
 Il modulo GDPR è **integrato profondamente** nel sistema sanitario:
@@ -129,6 +138,11 @@ Il modulo GDPR è **integrato profondamente** nel sistema:
 
 Il modulo GDPR è **integrato profondamente** nel sistema:
 >>>>>>> 6a853ea (.)
+=======
+## Utilizzo nel Sistema
+
+Il modulo GDPR è **integrato profondamente** nel sistema:
+>>>>>>> 6d1fb23 (.)
 - **User models** utilizzano HasGdpr trait
 - **Consent management** per pazienti e operatori sanitari
 - **Privacy compliance** per dati sensibili sanitari
