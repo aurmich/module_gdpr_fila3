@@ -21,4 +21,8 @@ abstract class GdprBasePolicy
 
         return null;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 618564f (.)
