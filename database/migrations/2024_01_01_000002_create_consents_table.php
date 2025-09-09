@@ -6,11 +6,16 @@ use Illuminate\Database\Schema\Blueprint;
 use Modules\Xot\Database\Migrations\XotBaseMigration;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 return new class extends XotBaseMigration
 {
 =======
 return new class extends XotBaseMigration {
 >>>>>>> 618564f (.)
+=======
+return new class() extends XotBaseMigration
+{
+>>>>>>> b0d9b24 (.)
     /**
      * Run the migrations.
      */
@@ -41,10 +46,14 @@ return new class extends XotBaseMigration {
                     $table->string('type')->nullable();
                 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
                 
 >>>>>>> 618564f (.)
+=======
+
+>>>>>>> b0d9b24 (.)
                 if (! $this->hasColumn('accepted_at')) {
                     $table->timestamp('accepted_at')->nullable();
                 }
