@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -85,3 +86,8 @@ npm run dev
 * [getting-started.md](laravel/Modules/Tenant/docs/it/getting-started.md)
 * [getting-started.md](laravel/Modules/Cms/docs/getting-started.md)
 
+=======
+# GDPR Module - Getting Started
+
+This module handles GDPR compliance and data protection features.
+>>>>>>> dcf23dc (.)
