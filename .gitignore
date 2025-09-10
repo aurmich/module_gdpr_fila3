@@ -1,32 +1,31 @@
-
-# Dependencies and packages
+# Dependencies
+vendor/
 node_modules/
 package-lock.json
-vendor/
 
 # Build and compiled files
+/build
+docs/cache/
+cache/
+
+# Cache and temporary files
 *.cache
 *.lock
 *.phar
-.php-cs-fixer.cache
-/build
-
-# Log files
 *.log
+.php-cs-fixer.cache
 
-# Git specific
-.git-blame-ignore-revs
+# Git related
 .git-rewrite/
+.git-blame-ignore-revs
 
 # Backup files
-*.backup
-*.bak
 *.old
 *.old1
+*.backup
+*.bak
 
-# Documentation and cache
-cache/
-docs/cache/
+# PHPStan documentation
 docs/phpstan/
 
 # Other

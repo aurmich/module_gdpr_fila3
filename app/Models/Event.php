@@ -83,12 +83,6 @@ use function Safe\json_encode;
  * @property ProfileContract|null $creator
  * @property ProfileContract|null $updater
  * @mixin IdeHelperEvent
- * @property int $post_id
- * @property string|null $date_start
- * @property string|null $date_end
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Event whereDateEnd($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Event whereDateStart($value)
- * @method static \Illuminate\Database\Eloquent\Builder<static>|Event wherePostId($value)
  * @mixin \Eloquent
  */
 class Event extends BaseModel
