@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -61,11 +62,36 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+=======
+# Dependencies
+vendor/
+node_modules/
+package-lock.json
+
+# Build and compiled files
+/build
+docs/cache/
+cache/
+
+# Cache and temporary files
+*.cache
+*.lock
+*.phar
+*.log
+.php-cs-fixer.cache
+
+# Git related
+.git-rewrite/
+.git-blame-ignore-revs
+
+# Backup files
+>>>>>>> 0ec79ee (.)
 *.old
 *.old1
 *.backup
 *.backup.*
 *.bak
+<<<<<<< HEAD
 *.new
 
 # Documentation and cache
@@ -76,3 +102,18 @@ cache/
 # Development tools
 .windsurf/
 .cursor/
+=======
+
+# PHPStan documentation
+docs/phpstan/
+
+# Old directories
+resources/views/Components_old
+database/Migrations_old
+database/Seeders_old
+database/Factories_old
+database_old
+
+# Other
+-e
+>>>>>>> 0ec79ee (.)
