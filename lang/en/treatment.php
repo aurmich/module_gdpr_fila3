@@ -1,8 +1,11 @@
 <?php
 
+<<<<<<< HEAD
 declare(strict_types=1);
 
 
+=======
+>>>>>>> 6d1fb23 (.)
 return [
     'navigation' => [
         'name' => 'Trattamenti',

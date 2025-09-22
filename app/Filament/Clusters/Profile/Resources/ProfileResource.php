@@ -11,6 +11,7 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ProfileResource extends XotBaseResource
 {
+<<<<<<< HEAD
     protected static null|string $model = Profile::class;
 
     protected static null|string $navigationIcon = 'heroicon-o-rectangle-stack';
@@ -24,6 +25,20 @@ class ProfileResource extends XotBaseResource
     }
 
     #[\Override]
+=======
+    protected static ?string $model = Profile::class;
+
+    protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static ?string $cluster = ProfileCluster::class;
+
+    public static function getFormSchema(): array
+    {
+        return [
+        ];
+    }
+
+>>>>>>> 6d1fb23 (.)
     public static function getPages(): array
     {
         return [

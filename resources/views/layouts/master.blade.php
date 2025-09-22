@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 <?php
 
 declare(strict_types=1);
 
 ?>
+=======
+>>>>>>> 6d1fb23 (.)
 <!DOCTYPE html>
 <html lang="en">
     <head>

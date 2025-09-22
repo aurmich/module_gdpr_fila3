@@ -8,5 +8,9 @@ use Filament\Clusters\Cluster;
 
 class Profile extends Cluster
 {
+<<<<<<< HEAD
     protected static null|string $navigationIcon = 'heroicon-o-squares-2x2';
+=======
+    protected static ?string $navigationIcon = 'heroicon-o-squares-2x2';
+>>>>>>> 6d1fb23 (.)
 }

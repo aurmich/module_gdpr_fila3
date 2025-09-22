@@ -11,12 +11,20 @@ return [
         [
             // A logical name for your treatment.
             'name' => 'gdpr.privacy',
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d1fb23 (.)
             // You can specify which document
             // describes the treatment type
             // with a document version and url.
             // This part is optional.
             'documentVersion' => '1.0',
             'documentUrl' => env('PRIVACY_POLICY'),
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6d1fb23 (.)
             // Whether this treatment is active or not.
             // The reason why this flag is here is to
             // allow for progressive modifications, so you
@@ -26,11 +34,22 @@ return [
             // process is to deactivate the current one
             // then add a new record.
             'active' => true,
+<<<<<<< HEAD
             // Set if this treatment is mandatory or optional.
             'required' => true,
             // A description text to be shown near a checkbox
             // or anywhere in your UI.
             'description' => 'gdpr.privacy.text',
+=======
+
+            // Set if this treatment is mandatory or optional.
+            'required' => true,
+
+            // A description text to be shown near a checkbox
+            // or anywhere in your UI.
+            'description' => 'gdpr.privacy.text',
+
+>>>>>>> 6d1fb23 (.)
             // UI weight, use this to choose what should be
             // listed first.
             'weight' => 0,

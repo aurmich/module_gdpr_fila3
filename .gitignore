@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -61,6 +62,8 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+=======
+>>>>>>> 6d1fb23 (.)
 # Dependencies
 vendor/
 node_modules/
@@ -86,6 +89,7 @@ cache/
 *.old
 *.old1
 *.backup
+<<<<<<< HEAD
 *.backup.*
 *.bak
 *.new
@@ -98,10 +102,14 @@ cache/
 # Development tools
 .windsurf/
 .cursor/
+=======
+*.bak
+>>>>>>> 6d1fb23 (.)
 
 # PHPStan documentation
 docs/phpstan/
 
+<<<<<<< HEAD
 # Old directories
 resources/views/Components_old
 database/Migrations_old
@@ -116,3 +124,7 @@ database_old
 *.fila2
 laravel
 public_html
+=======
+# Other
+-e
+>>>>>>> 6d1fb23 (.)
