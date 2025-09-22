@@ -1,8 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # GDPR Module - Getting Started
 
 This module handles GDPR compliance and data protection features.
 =======
+=======
+>>>>>>> 31a9aac (.)
 ---
 title: Getting Started
 description: Getting started with Jigsaw's docs starter template is as easy as 1, 2, 3.
@@ -90,4 +93,7 @@ npm run dev
 * [getting-started.md](laravel/Modules/Tenant/docs/it/getting-started.md)
 * [getting-started.md](laravel/Modules/Cms/docs/getting-started.md)
 
+<<<<<<< HEAD
 >>>>>>> 6d1fb23 (.)
+=======
+>>>>>>> 31a9aac (.)
