@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5d4f786 (.)
 # Dependencies and packages
 /vendor/
 /node_modules/
@@ -62,8 +65,11 @@ Homestead.json
 *.exe
 *:Zone.Identifier
 .DS_Store
+<<<<<<< HEAD
 =======
 >>>>>>> 6d1fb23 (.)
+=======
+>>>>>>> d5d4f786 (.)
 # Dependencies
 vendor/
 node_modules/
@@ -102,14 +108,20 @@ cache/
 # Development tools
 .windsurf/
 .cursor/
+<<<<<<< HEAD
 =======
 *.bak
 >>>>>>> 6d1fb23 (.)
+=======
+>>>>>>> d5d4f786 (.)
 
 # PHPStan documentation
 docs/phpstan/
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> d5d4f786 (.)
 # Old directories
 resources/views/Components_old
 database/Migrations_old
