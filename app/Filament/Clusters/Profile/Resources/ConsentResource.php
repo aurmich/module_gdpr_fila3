@@ -11,27 +11,6 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ConsentResource extends XotBaseResource
 {
-<<<<<<< HEAD
-    protected static null|string $model = Consent::class;
-
-    protected static null|string $navigationIcon = 'heroicon-o-rectangle-stack';
-
-    protected static null|string $cluster = ProfileCluster::class;
-
-    #[\Override]
-    public static function getFormSchema(): array
-    {
-        return [];
-    }
-
-    #[\Override]
-    public static function getRelations(): array
-    {
-        return [];
-    }
-
-    #[\Override]
-=======
     protected static ?string $model = Consent::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
@@ -50,7 +29,6 @@ class ConsentResource extends XotBaseResource
         ];
     }
 
->>>>>>> 6d1fb23 (.)
     public static function getPages(): array
     {
         return [

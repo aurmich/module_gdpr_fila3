@@ -25,11 +25,7 @@ class ConsentFactory extends Factory
      */
     public function definition(): array
     {
-<<<<<<< HEAD
-        return [];
-=======
         return [
         ];
->>>>>>> 6d1fb23 (.)
     }
 }

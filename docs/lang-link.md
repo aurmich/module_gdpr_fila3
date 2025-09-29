@@ -1,7 +1,5 @@
 # Collegamento alle Traduzioni del Modulo Gdpr
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/project_docs/).
 
 Consulta la documentazione delle traduzioni:
@@ -12,29 +10,10 @@ Consulta la documentazione delle traduzioni:
 ## Collegamento Bidirezionale
 
 Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/project_docs/).
-=======
-=======
->>>>>>> 31a9aac (.)
-Questo modulo utilizza le traduzioni centralizzate nella cartella [Lang](../../Lang/docs/).
-
-Consulta la documentazione delle traduzioni:
-- [Introduzione alle Traduzioni](../../Lang/docs/introduction.md)
-- [Struttura delle Traduzioni](../../Lang/docs/structure.md)
-- [Gestione dei File di Lingua](../../Lang/docs/module_lang.md)
-
-## Collegamento Bidirezionale
-
-Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in questo modulo e la relativa sezione in [Lang](../../Lang/docs/).
-<<<<<<< HEAD
->>>>>>> 6d1fb23 (.)
-=======
->>>>>>> 31a9aac (.)
 
 > Aggiorna entrambi i riferimenti se aggiungi nuove chiavi di traduzione o modifichi la struttura.
 
 ## Collegamenti tra versioni di lang-link.md
-<<<<<<< HEAD
-<<<<<<< HEAD
 * [lang-link.md](laravel/Modules/Chart/project_docs/lang-link.md)
 * [lang-link.md](laravel/Modules/Reporting/project_docs/lang-link.md)
 * [lang-link.md](laravel/Modules/Gdpr/project_docs/lang-link.md)
@@ -49,25 +28,4 @@ Per ogni risorsa o campo localizzato, vedi anche il file corrispondente in quest
 * [lang-link.md](laravel/Modules/Activity/project_docs/lang-link.md)
 * [lang-link.md](laravel/Modules/Patient/project_docs/lang-link.md)
 * [lang-link.md](laravel/Modules/Cms/project_docs/lang-link.md)
-=======
-=======
->>>>>>> 31a9aac (.)
-* [lang-link.md](laravel/Modules/Chart/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Reporting/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Gdpr/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Notify/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Xot/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Dental/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/User/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/UI/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Job/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Media/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Tenant/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Activity/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Patient/docs/lang-link.md)
-* [lang-link.md](laravel/Modules/Cms/docs/lang-link.md)
-<<<<<<< HEAD
->>>>>>> 6d1fb23 (.)
-=======
->>>>>>> 31a9aac (.)
 

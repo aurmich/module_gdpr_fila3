@@ -12,42 +12,25 @@ use Modules\Xot\Filament\Resources\XotBaseResource;
 
 class ConsentResource extends XotBaseResource
 {
-<<<<<<< HEAD
-    protected static null|string $model = Consent::class;
-
-    protected static null|string $navigationIcon = 'heroicon-o-rectangle-stack';
-
-    #[\Override]
-=======
     protected static ?string $model = Consent::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
 
->>>>>>> 6d1fb23 (.)
     public static function getFormSchema(): array
     {
         return [
             'treatment_id' => Forms\Components\Select::make('treatment_id')
                 ->relationship('treatment', 'name')
                 ->required(),
-<<<<<<< HEAD
-            'subject_id' => Forms\Components\TextInput::make('subject_id')->required()->maxLength(191),
-=======
             'subject_id' => Forms\Components\TextInput::make('subject_id')
                 ->required()
                 ->maxLength(191),
->>>>>>> 6d1fb23 (.)
         ];
     }
 
     public function getTableColumns(): array
     {
         return [
-<<<<<<< HEAD
-            Tables\Columns\TextColumn::make('id')->searchable(),
-            Tables\Columns\TextColumn::make('treatment.name')->searchable(),
-            Tables\Columns\TextColumn::make('subject_id')->searchable(),
-=======
             Tables\Columns\TextColumn::make('id')
 
                 ->searchable(),
@@ -55,7 +38,6 @@ class ConsentResource extends XotBaseResource
                 ->searchable(),
             Tables\Columns\TextColumn::make('subject_id')
                 ->searchable(),
->>>>>>> 6d1fb23 (.)
             Tables\Columns\TextColumn::make('created_at')
                 ->dateTime()
                 ->sortable()
@@ -67,10 +49,6 @@ class ConsentResource extends XotBaseResource
         ];
     }
 
-<<<<<<< HEAD
-    #[\Override]
-=======
->>>>>>> 6d1fb23 (.)
     public static function getPages(): array
     {
         return [
